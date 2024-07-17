@@ -31,6 +31,10 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="floatingWA.css">
 
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/062ddcdbf7.js" crossorigin="anonymous"></script>
+    <!-- akhir fontawesome -->
+
     <!-- 
     - preload images
   -->
@@ -75,7 +79,7 @@
                     </li>
 
                     <li>
-                        <a href="aboutme.php" class="navbar-link">About</a>
+                        <a href="aboutme.php" class="navbar-link">Tentang Kami</a>
                     </li>
 
                     <li>
@@ -91,10 +95,11 @@
                     </li>
 
                     <li>
-                        <a href="contact.php" class="navbar-link">Contact</a>
+                        <a href="contact.php" class="navbar-link">Kontak</a>
                     </li>
 
                 </ul>
+                
 
                 <div class="wrapper">
                     <a href="mailto:info@email.com" class="contact-link">PetaniMilenial.indo@gmail.com</a>
@@ -137,11 +142,17 @@
                 </ul>
 
             </nav>
+            <!-- search  -
+            <div class="search-box">
+                <input type="text" placeholder="Search..."/>
+                <a href="a"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+
+             -- akhir -->
 
             <form action="register.php" method="get">
                 <button type="submit" class="btn btn-primary">Bergabung</button>
             </form>
-
 
             <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
                 <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
@@ -168,19 +179,18 @@
 
                     <div class="hero-content">
 
-                        <h1 class="h1 hero-title">Pertanian Modern Untuk Generasi milenial.</h1>
+                        <h1 class="h1 hero-title">Pertanian Modern Untuk Generasi Milenial.</h1>
 
                         <p class="hero-text">
                             Memberdayakan masyarakat desa sebagai petani muda dengan alat dan pengetahuan terkini,
-                            menggabungkan
-                            cultur masyarakat kearifan lokal dengan teknologi.
+                            menggabungkan cultur masyarakat kearifan lokal dengan teknologi.
                         </p>
 
                         <div class="btn-wrapper">
 
-                            <a href="Register.php" class="btn btn-primary">Explore Now</a>
+                            <a href="Register.php" class="btn btn-primary">Jelajahi</a>
 
-                            <a href="aboutme.php" class="btn btn-outline">Contact Us</a>
+                            <a href="contact.php" class="btn btn-outline">Kontak Kami</a>
 
                         </div>
 
@@ -248,7 +258,7 @@
             <section id="layanan" class="section service" aria-labelledby="service-label">
                 <div class="container">
 
-                    <p class="section-subtitle" id="service-label">APA YANG KITA LAKUKAN?</p>
+                    <p class="section-subtitle" id="service-label">APA YANG KITA LAKUKAN ?</p>
 
                     <h2 class="h2 section-title">
                         Layanan yang kami tawarkan dirancang khusus untuk memenuhi kebutuhan Petani Milenial.
@@ -271,7 +281,7 @@
                                 </p>
 
                                 <a href="pelatihan.php" class="btn-text">
-                                    <span class="span">Learn More</span>
+                                    <span class="span">Selengkapnya</span>
 
                                     <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
                                 </a>
@@ -294,7 +304,7 @@
                                 </p>
 
                                 <a href="pemasaran.php" class="btn-text">
-                                    <span class="span">Learn More</span>
+                                    <span class="span">Selengkapnya</span>
 
                                     <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
                                 </a>
@@ -316,7 +326,7 @@
                                 </p>
 
                                 <a href="https://wa.me/6282324757905" class="btn-text" target="_blank">
-                                    <span class="span">Learn More</span>
+                                    <span class="span">Selengkapnya</span>
 
                                     <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
                                 </a>
@@ -339,7 +349,7 @@
                                 </p>
 
                                 <a href="risetpasar.php" class="btn-text">
-                                    <span class="span">Learn More</span>
+                                    <span class="span">Selengkapnya</span>
 
                                     <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
                                 </a>
@@ -369,7 +379,7 @@
 
                     <div class="about-content">
 
-                        <p class="section-subtitle" id="about-label">Mengapa Memilih Kami?</p>
+                        <p class="section-subtitle" id="about-label">Mengapa Memilih Kami ?</p>
 
                         <h2 class="h2 section-title">
                             Kami memberikan solusi untuk membuat hidup lebih mudah bagi klien.
@@ -552,7 +562,7 @@
                             <p class="card-text">
                                 <span class="h1">7518</span>
 
-                                <spna class="span">Completed Projects</spna>
+                                <spna class="span">Proyek Selesai</spna>
                             </p>
                         </li>
 
@@ -560,7 +570,7 @@
                             <p class="card-text">
                                 <span class="h1">3472</span>
 
-                                <spna class="span">Happy Customers</spna>
+                                <spna class="span">Pelanggan Puas</spna>
                             </p>
                         </li>
 
@@ -568,7 +578,7 @@
                             <p class="card-text">
                                 <span class="h1">2184</span>
 
-                                <spna class="span">Expert Employees</spna>
+                                <spna class="span">Orang Berpengalaman</spna>
                             </p>
                         </li>
 
@@ -576,7 +586,7 @@
                             <p class="card-text">
                                 <span class="h1">4523</span>
 
-                                <spna class="span">Awards Won</spna>
+                                <spna class="span">Penghargaan</spna>
                             </p>
                         </li>
 
@@ -596,7 +606,7 @@
             <section id="projek" class="section project" aria-labelledby="project-label">
                 <div class="container">
 
-                    <p class="section-subtitle" id="project-label">Study kasus</p>
+                    <p class="section-subtitle" id="project-label">Study Kasus</p>
 
                     <h2 class="h2 section-title">
                         Lihat beberapa proyek luar biasa kami dengan ide kreatif dan desain hebat.
@@ -608,19 +618,18 @@
                             <div class="project-card">
 
                                 <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
-                                    <img src="./assets/images/blog-1.jpg" width="560" height="350" loading="lazy" alt="Ligula tristique quis risus" class="img-cover">
+                                    <img src="./assets/images/ppp.jpg" width="560" height="350" loading="lazy" alt="Ligula tristique quis risus" class="img-cover">
                                 </figure>
 
                                 <div class="card-content">
 
                                     <h3 class="h3">
-                                        <a href="#" class="card-title">Ligula tristique quis risus</a>
+                                        <a href="#" class="card-title">Pembuatan Website</a>
                                     </h3>
 
                                     <p class="card-text">
-                                        Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus
-                                        vestibulum cras
-                                        imperdiet nun eu dolor.
+                                    Di era digital ini, website menjadi alat penting untuk menjangkau khalayak luas dan membangun brand yang kuat.
+                                    Bagi para pelaku usaha di bidang pertanian, memiliki website dapat memberikan banyak manfaat.
                                     </p>
 
                                     <ul class="card-meta-list">
@@ -628,7 +637,7 @@
                                         <li class="card-meta-item">
                                             <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
 
-                                            <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
+                                            <time class="meta-text" datetime="2022-04-14">14 Apr 2024</time>
                                         </li>
 
                                         <li class="card-meta-item">
@@ -648,19 +657,18 @@
                             <div class="project-card">
 
                                 <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
-                                    <img src="./assets/images/blog-2.jpg" width="560" height="350" loading="lazy" alt="Nullam id dolor elit id nibh" class="img-cover">
+                                    <img src="./assets/images/pp.jpg" width="560" height="350" loading="lazy" alt="Nullam id dolor elit id nibh" class="img-cover">
                                 </figure>
 
                                 <div class="card-content">
 
                                     <h3 class="h3">
-                                        <a href="#" class="card-title">Nullam id dolor elit id nibh</a>
+                                        <a href="#" class="card-title">Pembahasan Materi dan Resource</a>
                                     </h3>
 
                                     <p class="card-text">
-                                        Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus
-                                        vestibulum cras
-                                        imperdiet nun eu dolor.
+                                    Bergabunglah bersama kami dalam perjalanan untuk menjelajahi kekayaan materi dan sumber daya web yang berkaitan dengan pertanian.
+                                    Temukan informasi yang Anda butuhkan untuk mengembangkan usaha tani Anda, meningkatkan hasil panen, dan berkontribusi pada ketahanan pangan.
                                     </p>
 
                                     <ul class="card-meta-list">
@@ -668,7 +676,7 @@
                                         <li class="card-meta-item">
                                             <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
 
-                                            <time class="meta-text" datetime="2022-03-29">29 Mar 2022</time>
+                                            <time class="meta-text" datetime="2022-03-29">29 Mar 2024</time>
                                         </li>
 
                                         <li class="card-meta-item">
@@ -688,19 +696,17 @@
                             <div class="project-card">
 
                                 <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
-                                    <img src="./assets/images/blog-3.jpg" width="560" height="350" loading="lazy" alt="Ultricies fusce porta elit" class="img-cover">
+                                    <img src="./assets/images/p.jpg" width="560" height="350" loading="lazy" alt="Ultricies fusce porta elit" class="img-cover">
                                 </figure>
 
                                 <div class="card-content">
 
                                     <h3 class="h3">
-                                        <a href="#" class="card-title">Ultricies fusce porta elit</a>
+                                        <a href="#" class="card-title">Pertemuan Dengan Tenaga Ahli Pertanian</a>
                                     </h3>
 
                                     <p class="card-text">
-                                        Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus
-                                        vestibulum cras
-                                        imperdiet nun eu dolor.
+                                    Dengan mengikuti pertemuan ini, diharapkan para petani dapat meningkatkan pengetahuan dan keterampilannya dalam mengelola lahan pertanian secara efektif dan efisien, sehingga dapat meningkatkan produktivitas dan pendapatan mereka.
                                     </p>
 
                                     <ul class="card-meta-list">
@@ -708,7 +714,7 @@
                                         <li class="card-meta-item">
                                             <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
 
-                                            <time class="meta-text" datetime="2022-02-26">26 Feb 2022</time>
+                                            <time class="meta-text" datetime="2022-02-26">26 Feb 2024</time>
                                         </li>
 
                                         <li class="card-meta-item">
@@ -788,12 +794,6 @@
 
                     <li>
                         <a href="#" class="social-link">
-                            <ion-icon name="logo-dribbble"></ion-icon>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#" class="social-link">
                             <ion-icon name="logo-instagram"></ion-icon>
                         </a>
                     </li>
@@ -811,7 +811,7 @@
             <ul class="footer-list">
 
                 <li>
-                    <p class="h4 footer-list-title">Get in Touch</p>
+                    <p class="h4 footer-list-title">Alamat Kantor</p>
                 </li>
 
                 <li>
@@ -833,7 +833,7 @@
             <ul class="footer-list">
 
                 <li>
-                    <p class="h4 footer-list-title">Learn More</p>
+                    <p class="h4 footer-list-title">Selengkapnya</p>
                 </li>
 
                 <li>
@@ -860,15 +860,15 @@
 
             <div class="footer-list">
 
-                <p class="h4 footer-list-title">Our Newsletter</p>
+                <p class="h4 footer-list-title">Surat Kabar Kami</p>
 
                 <p class="footer-text">
-                    Subscribe to our newsletter to get our news & deals delivered to you.
+                Berlangganan surat kabar kami untuk mendapatkan berita & penawaran kami dikirimkan kepada Anda.
                 </p>
 
                 <form action="send_email.php" method="post" class="input-wrapper">
-                    <input type="email" name="email" placeholder="Email Address" required class="input-field">
-                    <button type="submit" class="submit-btn">Join</button>
+                    <input type="email" name="email" placeholder="Alamat Email" required class="input-field">
+                    <button type="submit" class="submit-btn">Gabung</button>
                 </form>
 
             </div>

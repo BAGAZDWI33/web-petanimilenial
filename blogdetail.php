@@ -11,6 +11,11 @@
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
 
+        <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logopetanimuda.png" type="image/svg+xml">
+
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap"
@@ -65,117 +70,121 @@
 
     <body>
 
-        <!-- 
-- #HEADER
--->
+    <!-- 
+    - #HEADER Navbar
+  -->
 
-        <header class="header" data-header>
-            <div class="container">
+  <header class="header" data-header>
+        <div class="container">
 
-                <a href="#" class="logo">
-                    <img src="./assets/images/logopetanimuda.png" width="74" height="24" alt="Adex home"
-                        class="logo-light">
+            <a href="#" class="logo">
+                <img src="./assets/images/logopetanimuda.png" width="74" height="24" alt="Adex home" class="logo-light">
 
-                    <img src="./assets/images/logopetanimuda.png" width="74" height="24" alt="Adex home"
-                        class="logo-dark">
-                </a>
+                <img src="./assets/images/logopetanimuda.png" width="74" height="24" alt="Adex home" class="logo-dark">
+            </a>
 
-                <nav class="navbar" data-navbar>
+            <nav class="navbar" data-navbar>
 
-                    <div class="navbar-top">
-                        <a href="#" class="logo">
-                            <img src="./assets/images/logopetanimuda.png" width="74" height="24"
-                                alt="PetaniMilenial home">
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <img src="./assets/images/logopetanimuda.png" width="74" height="24" alt="PetaniMilenial home">
+                    </a>
+
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+
+                <ul class="navbar-list">
+
+                    <li>
+                        <a href="index.php" class="navbar-link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="aboutme.php" class="navbar-link">Tentang Kami</a>
+                    </li>
+
+                    <li>
+                        <a href="galeri.php" class="navbar-link">Galeri</a>
+                    </li>
+
+                    <li>
+                        <a href="layanan.php" class="navbar-link">Layanan</a>
+                    </li>
+
+                    <li>
+                        <a href="blog.php" class="navbar-link">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.php" class="navbar-link">Kontak</a>
+                    </li>
+
+                </ul>
+                
+
+                <div class="wrapper">
+                    <a href="mailto:info@email.com" class="contact-link">PetaniMilenial.indo@gmail.com</a>
+
+                    <a href="tel:082324757905" class="contact-link">082324757905</a>
+                </div>
+
+                <ul class="social-list">
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
                         </a>
+                    </li>
 
-                        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
-                            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
-                        </button>
-                    </div>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
 
-                    <ul class="navbar-list">
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-dribbble"></ion-icon>
+                        </a>
+                    </li>
 
-                        <li>
-                            <a href="index.php" class="navbar-link">Home</a>
-                        </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
 
-                        <li>
-                            <a href="aboutme.php" class="navbar-link">About</a>
-                        </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                    </li>
 
-                        <li>
-                            <a href="galeri.php" class="navbar-link">Galeri</a>
-                        </li>
+                </ul>
 
-                        <li>
-                            <a href="layanan.php" class="navbar-link">Layanan</a>
-                        </li>
-
-                        <li>
-                            <a href="blog.php" class="navbar-link">Blog</a>
-                        </li>
-
-                        <li>
-                            <a href="contact.php" class="navbar-link">Contact</a>
-                        </li>
-
-                    </ul>
-
-                    <div class="wrapper">
-                        <a href="mailto:info@email.com" class="contact-link">PetaniMilenial.indo@gmail.com</a>
-
-                        <a href="tel:082324757905" class="contact-link">082324757905</a>
-                    </div>
-
-                    <ul class="social-list">
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-twitter"></ion-icon>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-facebook"></ion-icon>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-dribbble"></ion-icon>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-instagram"></ion-icon>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-youtube"></ion-icon>
-                            </a>
-                        </li>
-
-                    </ul>
-
-                </nav>
-
-                <form action="register.php" method="get">
-                    <button type="submit" class="btn btn-primary">Bergabung</button>
-                </form>
-
-
-                <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
-                    <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
-                </button>
-
-                <div class="overlay" data-nav-toggler data-overlay></div>
-
+            </nav>
+            <!-- search  -
+            <div class="search-box">
+                <input type="text" placeholder="Search..."/>
+                <a href="a"><i class="fa-solid fa-magnifying-glass"></i></a>
             </div>
-        </header>
+
+             -- akhir -->
+
+            <form action="register.php" method="get">
+                <button type="submit" class="btn btn-primary">Bergabung</button>
+            </form>
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+
+        </div>
+    </header>
         <!-- Navbar End -->
 
 
@@ -206,57 +215,48 @@
                                 <img class="img-fluid w-100" src="img/blog-2.jpg" alt="">
                             </div>
                         </div>
-                        <h1 class="mb-4">Diam dolor est labore duo ipsum clita sed et lorem tempor duo</h1>
-                        <p>Sadipscing labore amet rebum est et justo gubergren. Et eirmod ipsum sit diam ut
-                            magna lorem. Nonumy vero labore lorem sanctus rebum et lorem magna kasd, stet
-                            amet magna accusam consetetur eirmod. Kasd accusam sit ipsum sadipscing et at at
-                            sanctus et. Ipsum sit gubergren dolores et, consetetur justo invidunt at et
-                            aliquyam ut et vero clita. Diam sea sea no sed dolores diam nonumy, gubergren
-                            sit stet no diam kasd vero.</p>
-                        <p>Voluptua est takimata stet invidunt sed rebum nonumy stet, clita aliquyam dolores
-                            vero stet consetetur elitr takimata rebum sanctus. Sit sed accusam stet sit
-                            nonumy kasd diam dolores, sanctus lorem kasd duo dolor dolor vero sit et. Labore
-                            ipsum duo sanctus amet eos et. Consetetur no sed et aliquyam ipsum justo et,
-                            clita lorem sit vero amet amet est dolor elitr, stet et no diam sit. Dolor erat
-                            justo dolore sit invidunt.</p>
-                        <p>Diam dolor est labore duo invidunt ipsum clita et, sed et lorem voluptua tempor
-                            invidunt at est sanctus sanctus. Clita dolores sit kasd diam takimata justo diam
-                            lorem sed. Magna amet sed rebum eos. Clita no magna no dolor erat diam tempor
-                            rebum consetetur, sanctus labore sed nonumy diam lorem amet eirmod. No at tempor
-                            sea diam kasd, takimata ea nonumy elitr sadipscing gubergren erat. Gubergren at
-                            lorem invidunt sadipscing rebum sit amet ut ut, voluptua diam dolores at
-                            sadipscing stet. Clita dolor amet dolor ipsum vero ea ea eos.</p>
+                        <h1 class="mb-4">Menjelajahi Dunia Oranye: Panduan Lengkap Menanam dan Memanen Wortel</h1>
+                        <p>Wortel, si mungil berwarna oranye yang kaya akan vitamin dan mineral, ternyata mudah ditanam. 
+                            Bagi Anda yang ingin memulai berkebun, menanam wortel bisa menjadi pilihan yang tepat. 
+                            Berikut panduan lengkapnya untuk menemani perjalanan Anda dalam menanam dan memanen wortel.</p>
+                        <p>Mempersiapkan Lahan Tanam yang Ideal:
+                            Pilihlah lokasi yang terkena sinar matahari minimal 6 jam per hari. Wortel membutuhkan sinar matahari yang cukup untuk tumbuh dengan optimal.
+                            Gunakan tanah yang gembur, kaya akan bahan organik, dan memiliki drainase yang baik. Tanah yang ideal untuk wortel memiliki pH antara 6,0 hingga 6,8.
+                            Siapkan bedengan dengan ketinggian sekitar 15-20 cm dan lebar 30-40 cm. Pastikan bedengan dibuat dengan rapi agar air tidak tergenang.</p>
+                        <p>Menanam Benih Wortel:
+                            Pilihlah benih wortel berkualitas baik. Benih wortel tersedia dalam berbagai varietas, seperti wortel merah, oranye, dan ungu. Anda dapat memilih varietas yang sesuai dengan selera Anda.
+                            Buatlah alur tanam dengan kedalaman sekitar 1 cm dan jarak antar alur 20-30 cm.
+                            Tanamlah benih wortel dengan jarak 2-3 cm antar benih.
+                            Tutup alur tanam dengan tanah tipis dan siram perlahan dengan air.</p>
+                        <p>Merawat Wortel dengan Penuh Perhatian:
+                            Siramlah wortel secara rutin, terutama saat cuaca panas dan kering. Pastikan tanah tidak terlalu basah atau terlalu kering.
+                            Berikan pupuk organik secara berkala, 2-3 minggu sekali. Pupuk kandang atau kompos merupakan pilihan yang tepat untuk wortel.
+                            Bersihkan gulma yang tumbuh di sekitar tanaman wortel. Gulma dapat mengganggu pertumbuhan wortel dan menjadi tempat persembunyian hama.
+                            Lakukan penyiangan secara hati-hati agar tidak merusak tanaman wortel.</p>
+                        <p>Memanen Wortel yang Manis dan Juicy:
+                            Wortel umumnya siap panen setelah 70-100 hari setelah tanam. Tanda wortel siap panen adalah daunnya yang mulai menguning dan umbi wortel yang sudah menonjol keluar dari tanah.
+                            Panen wortel dengan hati-hati agar tidak merusak umbinya. Gunakan garpu kebun untuk mencabut wortel dengan perlahan.
+                            Setelah dipanen, bersihkan wortel dari tanah dan potong daunnya. Simpan wortel di tempat yang sejuk dan kering.</p>
+                        <p>Tips Menanam Wortel yang Sukses:
+                            Pilihlah waktu tanam yang tepat. Waktu tanam yang ideal untuk wortel di Indonesia adalah pada musim kemarau, yaitu antara bulan April hingga Oktober.
+                            Gunakan mulsa untuk menjaga kelembapan tanah dan menekan pertumbuhan gulma.
+                            Lakukan pencegahan hama dan penyakit tanaman. Lakukan rotasi tanaman secara berkala dan gunakan pestisida alami jika diperlukan.</p>
+                        <p>Menanam wortel di rumah tidak hanya menyenangkan, tetapi juga memberikan banyak manfaat.
+                            Anda dapat menikmati hasil panen wortel yang segar dan kaya akan nutrisi.
+                            Wortel juga dapat diolah menjadi berbagai hidangan lezat dan bergizi.</p>
+                        <p></p>
                     </div>
                     <!-- Blog Detail End -->
 
                     <!-- Comment List Start -->
                     <div class="mb-5" id="commentList">
-                        <h2 class="mb-4">3 Comments</h2>
+                        <h2 class="mb-4">1 Comments</h2>
                         <div class="d-flex mb-4">
                             <img src="img/user.jpg" class="img-fluid" style="width: 45px; height: 45px;">
                             <div class="ps-3">
-                                <h6><a href="#">John Doe</a> <small><i>01 Jan 2045</i></small></h6>
-                                <p>Diam amet duo labore stet elitr invidunt ea clita ipsum voluptua, tempor labore
-                                    accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed eirmod</p>
-                                <button class="btn btn-sm btn-primary">Reply</button>
-                            </div>
-                        </div>
-                        <div class="d-flex mb-4">
-                            <img src="img/user.jpg" class="img-fluid" style="width: 45px; height: 45px;">
-                            <div class="ps-3">
-                                <h6><a href="#">John Doe</a> <small><i>01 Jan 2045</i></small></h6>
-                                <p>Diam amet duo labore stet elitr invidunt ea clita ipsum voluptua, tempor labore
-                                    accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed eirmod</p>
-                                <button class="btn btn-sm btn-primary">Reply</button>
-                            </div>
-                        </div>
-                        <div class="d-flex ms-5 mb-4">
-                            <img src="img/user.jpg" class="img-fluid" style="width: 45px; height: 45px;">
-                            <div class="ps-3">
-                                <h6><a href="#">John Doe</a> <small><i>01 Jan 2045</i></small></h6>
-                                <p>Diam amet duo labore stet elitr invidunt ea clita ipsum voluptua, tempor labore
-                                    accusam ipsum et no at. Kasd diam tempor rebum magna dolores sed eirmod</p>
-                                <button class="btn btn-sm btn-primary">Reply</button>
+                                <h6><a href="#">Paijo Mangkunegoro</a> <small><i>15 Juli 2024</i></small></h6>
+                                <p>Sangat membatu sekali informasinya, terimaksih semoga semakin maju dan sukses.</p>
+                                <button class="btn btn-sm btn-primary">Balas</button>
                             </div>
                         </div>
                     </div>
@@ -264,28 +264,27 @@
 
                     <!-- Comment Form Start -->
                     <div class="bg-primary p-5">
-                        <h2 class="text-white mb-4">Leave a comment</h2>
+                        <h2 class="text-white mb-4">Komentar</h2>
                         <form id="commentForm">
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control bg-white border-0" placeholder="Your Name"
+                                    <input type="text" class="form-control bg-white border-0" placeholder="Nama"
                                         style="height: 55px;" name="name">
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control bg-white border-0" placeholder="Your Email"
+                                    <input type="email" class="form-control bg-white border-0" placeholder="Alamat Email"
                                         style="height: 55px;" name="email">
                                 </div>
                                 <div class="col-12">
-                                    <label for="avatar" class="form-label">Your Photo (optional)</label>
+                                    <label for="avatar" class="form-label">Upload Foto (optional)</label>
                                     <input type="file" class="form-control" id="avatar" name="avatar">
                                 </div>
                                 <div class="col-12">
-                                    <textarea class="form-control bg-white border-0" rows="5" placeholder="Comment"
+                                    <textarea class="form-control bg-white border-0" rows="5" placeholder="Komentar"
                                         name="comment"></textarea>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-secondary w-100 py-3" type="submit">Leave Your
-                                        Comment</button>
+                                    <button class="btn btn-secondary w-100 py-3" type="submit">Komentar</button>
                                 </div>
                             </div>
                         </form>
@@ -304,67 +303,53 @@
                     </div>
                     <!-- Search Form End -->
 
-                    <!-- Category Start -->
-                    <div class="mb-5">
-                        <h2 class="mb-4">Categories</h2>
-                        <div class="d-flex flex-column justify-content-start bg-primary p-4">
-                            <a class="fs-5 fw-bold text-white mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Web
-                                Design</a>
-                            <a class="fs-5 fw-bold text-white mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Web
-                                Development</a>
-                            <a class="fs-5 fw-bold text-white mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Web
-                                Development</a>
-                            <a class="fs-5 fw-bold text-white mb-2" href="#"><i
-                                    class="bi bi-arrow-right me-2"></i>Keyword
-                                Research</a>
-                            <a class="fs-5 fw-bold text-white" href="#"><i class="bi bi-arrow-right me-2"></i>Email
-                                Marketing</a>
-                        </div>
+                <!-- Category Start -->
+                <div class="mb-5">
+                    <h2 class="mb-4">Kategori</h2>
+                    <div class="d-flex flex-column justify-content-start bg-primary p-4">
+                        <a class="fs-5 fw-bold text-white mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Pertanian Padi</a>
+                        <a class="fs-5 fw-bold text-white mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Palawija</a>
+                        <a class="fs-5 fw-bold text-white mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Budidaya Anggur</a>
+                        <a class="fs-5 fw-bold text-white mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Penyewaan Alat Pertanian</a>
+                        <a class="fs-5 fw-bold text-white" href="#"><i class="bi bi-arrow-right me-2"></i>Penyuluhan Pertanian</a>
                     </div>
-                    <!-- Category End -->
+                </div>
+                <!-- Category End -->
 
-                    <!-- Recent Post Start -->
-                    <div class="mb-5">
-                        <h2 class="mb-4">Recent Post</h2>
-                        <div class="bg-primary p-4">
-                            <div class="d-flex overflow-hidden mb-3">
-                                <img class="img-fluid flex-shrink-0" src="img/blog-1.jpg" style="width: 75px;" alt="">
-                                <a href=""
-                                    class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Lorem
-                                    ipsum dolor sit amet elit
-                                </a>
-                            </div>
-                            <div class="d-flex overflow-hidden mb-3">
-                                <img class="img-fluid flex-shrink-0" src="img/blog-2.jpg" style="width: 75px;" alt="">
-                                <a href=""
-                                    class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Lorem
-                                    ipsum dolor sit amet elit
-                                </a>
-                            </div>
-                            <div class="d-flex overflow-hidden mb-3">
-                                <img class="img-fluid flex-shrink-0" src="img/blog-3.jpg" style="width: 75px;" alt="">
-                                <a href=""
-                                    class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Lorem
-                                    ipsum dolor sit amet elit
-                                </a>
-                            </div>
-                            <div class="d-flex overflow-hidden mb-3">
-                                <img class="img-fluid flex-shrink-0" src="img/blog-1.jpg" style="width: 75px;" alt="">
-                                <a href=""
-                                    class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Lorem
-                                    ipsum dolor sit amet elit
-                                </a>
-                            </div>
-                            <div class="d-flex overflow-hidden">
-                                <img class="img-fluid flex-shrink-0" src="img/blog-2.jpg" style="width: 75px;" alt="">
-                                <a href=""
-                                    class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Lorem
-                                    ipsum dolor sit amet elit
-                                </a>
-                            </div>
+                <!-- Recent Post Start -->
+                <div class="mb-5">
+                    <h2 class="mb-4">Postingan Terbaru</h2>
+                    <div class="bg-primary p-4">
+                        <div class="d-flex overflow-hidden mb-3">
+                            <img class="img-fluid flex-shrink-0" src="img/blog-1.jpg" style="width: 75px;" alt="">
+                            <a href="" class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Menjelajahi Dunia Oranye: Panduan Lengkap Menanam dan Memanen Wortel
+                            </a>
+                        </div>
+                        <div class="d-flex overflow-hidden mb-3">
+                            <img class="img-fluid flex-shrink-0" src="img/blog-2.jpg" style="width: 75px;" alt="">
+                            <a href="" class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Panen Wortel dengan hasil yang memuaskan
+                            </a>
+                        </div>
+                        <div class="d-flex overflow-hidden mb-3">
+                            <img class="img-fluid flex-shrink-0" src="img/blog-1.jpg" style="width: 75px;" alt="">
+                            <a href="" class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Penanaman Tomat dengan cara manual
+                            </a>
+                        </div>
+                        <div class="d-flex overflow-hidden mb-3">
+                            <img class="img-fluid flex-shrink-0" src="img/blog-3.jpg" style="width: 75px;" alt="">
+                            <a href="" class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Panen Tomat dengan buah yang bagus
+                            </a>
+                        </div>
+
+                        <div class="d-flex overflow-hidden">
+                            <img class="img-fluid flex-shrink-0" src="img/blog-2.jpg" style="width: 75px;" alt="">
+                            <a href="" class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Penegcekan hasil penanman wortel siap panen
+                            </a>
                         </div>
                     </div>
-                    <!-- Recent Post End -->
+                </div>
+                <!-- Recent Post End -->
+
 
                     <!-- Image Start -->
                     <div class="mb-5">
@@ -372,36 +357,14 @@
                     </div>
                     <!-- Image End -->
 
-                    <!-- Tags Start -->
-                    <div class="mb-5">
-                        <h2 class="mb-4">Tag Cloud</h2>
-                        <div class="d-flex flex-wrap m-n1">
-                            <a href="" class="btn btn-primary m-1">Design</a>
-                            <a href="" class="btn btn-primary m-1">Development</a>
-                            <a href="" class="btn btn-primary m-1">Marketing</a>
-                            <a href="" class="btn btn-primary m-1">SEO</a>
-                            <a href="" class="btn btn-primary m-1">Writing</a>
-                            <a href="" class="btn btn-primary m-1">Consulting</a>
-                            <a href="" class="btn btn-primary m-1">Design</a>
-                            <a href="" class="btn btn-primary m-1">Development</a>
-                            <a href="" class="btn btn-primary m-1">Marketing</a>
-                            <a href="" class="btn btn-primary m-1">SEO</a>
-                            <a href="" class="btn btn-primary m-1">Writing</a>
-                            <a href="" class="btn btn-primary m-1">Consulting</a>
-                        </div>
-                    </div>
-                    <!-- Tags End -->
-
                     <!-- Plain Text Start -->
                     <div>
-                        <h2 class="mb-4">Plain Text</h2>
+                        <h2 class="mb-4">Tentang Blog</h2>
                         <div class="bg-primary text-center text-white" style="padding: 30px;">
-                            <p>Vero sea et accusam justo dolor accusam lorem consetetur, dolores sit amet sit dolor
-                                clita
-                                kasd justo, diam accusam no sea ut tempor magna takimata, amet sit et diam dolor ipsum
-                                amet
-                                diam</p>
-                            <a href="" class="btn btn-secondary py-2 px-4">Read More</a>
+                            <p>Blog ini dipersembahkan bagi para petani, penggiat agrikultur, dan semua orang yang ingin menyelami dunia pertanian yang menjanjikan dan penuh peluang.
+                                Temukan panduan dan kiat bertani yang efektif, pelajari teknologi terkini, dan dapatkan inspirasi dari kisah sukses para petani inovatif.
+                                Bergabunglah dengan komunitas dinamis kami untuk saling berbagi ilmu, pengalaman, dan membangun jejaring yang saling menguntungkan.
+                                Mari kita bersama-sama wujudkan masa depan pertanian yang lebih gemilang, berkelanjutan, dan sejahtera!</p>
                         </div>
                     </div>
                     <!-- Plain Text End -->
@@ -412,126 +375,120 @@
         <!-- Blog End -->
 
 
-        <!-- 
+    <!-- 
     - #FOOTER
   -->
 
-        <footer class="footer">
-            <div class="container grid-list">
+  <footer class="footer">
+        <div class="container grid-list">
 
-                <div class="footer-brand">
+            <div class="footer-brand">
 
-                    <a href="#" class="logo">
-                        <img src="./assets/images/logopetanimuda.png" width="74" height="24" alt="Adex home">
-                    </a>
+                <a href="#" class="logo">
+                    <img src="./assets/images/logopetanimuda.png" width="74" height="24" alt="Adex home">
+                </a>
 
-                    <p class="footer-text">
-                        &copy; 2024 PT Bazma Corporation Berdikari. <br> All rights reserved.
-                    </p>
+                <p class="footer-text">
+                    &copy; 2024 PT Bazma Corporation Berdikari. <br> All rights reserved.
+                </p>
 
-                    <ul class="social-list">
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-facebook"></ion-icon>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-twitter"></ion-icon>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-dribbble"></ion-icon>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-instagram"></ion-icon>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-youtube"></ion-icon>
-                            </a>
-                        </li>
-
-                    </ul>
-
-                </div>
-
-                <ul class="footer-list">
+                <ul class="social-list">
 
                     <li>
-                        <p class="h4 footer-list-title">Get in Touch</p>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
                     </li>
 
                     <li>
-                        <address class="footer-text">
-                            Jl. Suging Klabangkara , Tegal, Indonesia
-                        </address>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
                     </li>
 
                     <li>
-                        <a href="mailto:info@email.com" class="footer-link">petanimilenial.indo@gmail.com</a>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
                     </li>
 
                     <li>
-                        <a href="tel:001234567890" class="footer-link">082324757905</a>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
                     </li>
 
                 </ul>
-
-                <ul class="footer-list">
-
-                    <li>
-                        <p class="h4 footer-list-title">Learn More</p>
-                    </li>
-
-                    <li>
-                        <a href="#" class="footer-link">About Us</a>
-                    </li>
-
-                    <li>
-                        <a href="#" class="footer-link">Our Story</a>
-                    </li>
-
-                    <li>
-                        <a href="#projek" class="footer-link">Projects</a>
-                    </li>
-
-                    <li>
-                        <a href="#" class="footer-link">Terms of Use</a>
-                    </li>
-
-                    <li>
-                        <a href="#" class="footer-link">Privacy Policy</a>
-                    </li>
-
-                </ul>
-
-                <div class="footer-list">
-
-                    <p class="h4 footer-list-title">Our Newsletter</p>
-
-                    <p class="footer-text">
-                        Subscribe to our newsletter to get our news & deals delivered to you.
-                    </p>
-
-                    <form action="send_email.php" method="post" class="input-wrapper">
-                        <input type="email" name="email" placeholder="Email Address" required class="input-field">
-                        <button type="submit" class="submit-btn">Join</button>
-                    </form>
-
-                </div>
 
             </div>
-        </footer>
+
+            <ul class="footer-list">
+
+                <li>
+                    <p class="h4 footer-list-title">Alamat Kantor</p>
+                </li>
+
+                <li>
+                    <address class="footer-text">
+                        Jl. Suging Klabangkara , Tegal, Indonesia
+                    </address>
+                </li>
+
+                <li>
+                    <a href="mailto:info@email.com" class="footer-link">petanimilenial.indo@gmail.com</a>
+                </li>
+
+                <li>
+                    <a href="tel:001234567890" class="footer-link">082324757905</a>
+                </li>
+
+            </ul>
+
+            <ul class="footer-list">
+
+                <li>
+                    <p class="h4 footer-list-title">Selengkapnya</p>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">About Us</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Our Story</a>
+                </li>
+
+                <li>
+                    <a href="#projek" class="footer-link">Projects</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Terms of Use</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                </li>
+
+            </ul>
+
+            <div class="footer-list">
+
+                <p class="h4 footer-list-title">Surat Kabar Kami</p>
+
+                <p class="footer-text">
+                Berlangganan surat kabar kami untuk mendapatkan berita & penawaran kami dikirimkan kepada Anda.
+                </p>
+
+                <form action="send_email.php" method="post" class="input-wrapper">
+                    <input type="email" name="email" placeholder="Alamat Email" required class="input-field">
+                    <button type="submit" class="submit-btn">Gabung</button>
+                </form>
+
+            </div>
+
+        </div>
+    </footer>
 
         <!-- Tombol Melayang -->
         <div class="floating-buttons">

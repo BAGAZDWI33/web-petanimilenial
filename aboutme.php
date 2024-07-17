@@ -58,114 +58,121 @@
 
     <body>
 
-        <!-- 
-- #HEADER
--->
+    <!-- 
+    - #HEADER Navbar
+  -->
 
-        <header class="header" data-header>
-            <div class="container">
+  <header class="header" data-header>
+        <div class="container">
 
-                <a href="#" class="logo">
-                    <img src="./assets/images/logopetanimuda.png" width="74" height="24" alt="Adex home" class="logo-light">
+            <a href="#" class="logo">
+                <img src="./assets/images/logopetanimuda.png" width="74" height="24" alt="Adex home" class="logo-light">
 
-                    <img src="./assets/images/logopetanimuda.png" width="74" height="24" alt="Adex home" class="logo-dark">
-                </a>
+                <img src="./assets/images/logopetanimuda.png" width="74" height="24" alt="Adex home" class="logo-dark">
+            </a>
 
-                <nav class="navbar" data-navbar>
+            <nav class="navbar" data-navbar>
 
-                    <div class="navbar-top">
-                        <a href="#" class="logo">
-                            <img src="./assets/images/logopetanimuda.png" width="74" height="24" alt="PetaniMilenial home">
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <img src="./assets/images/logopetanimuda.png" width="74" height="24" alt="PetaniMilenial home">
+                    </a>
+
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+
+                <ul class="navbar-list">
+
+                    <li>
+                        <a href="index.php" class="navbar-link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="aboutme.php" class="navbar-link">Tentang Kami</a>
+                    </li>
+
+                    <li>
+                        <a href="galeri.php" class="navbar-link">Galeri</a>
+                    </li>
+
+                    <li>
+                        <a href="layanan.php" class="navbar-link">Layanan</a>
+                    </li>
+
+                    <li>
+                        <a href="blog.php" class="navbar-link">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.php" class="navbar-link">Kontak</a>
+                    </li>
+
+                </ul>
+                
+
+                <div class="wrapper">
+                    <a href="mailto:info@email.com" class="contact-link">PetaniMilenial.indo@gmail.com</a>
+
+                    <a href="tel:082324757905" class="contact-link">082324757905</a>
+                </div>
+
+                <ul class="social-list">
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
                         </a>
+                    </li>
 
-                        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
-                            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
-                        </button>
-                    </div>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
 
-                    <ul class="navbar-list">
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-dribbble"></ion-icon>
+                        </a>
+                    </li>
 
-                        <li>
-                            <a href="index.php" class="navbar-link">Home</a>
-                        </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
 
-                        <li>
-                            <a href="aboutme.php" class="navbar-link">About</a>
-                        </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                    </li>
 
-                        <li>
-                            <a href="galeri.php" class="navbar-link">Galeri</a>
-                        </li>
+                </ul>
 
-                        <li>
-                            <a href="layanan.php" class="navbar-link">Layanan</a>
-                        </li>
-
-                        <li>
-                            <a href="blog.php" class="navbar-link">Blog</a>
-                        </li>
-
-                        <li>
-                            <a href="contact.php" class="navbar-link">Contact</a>
-                        </li>
-
-                    </ul>
-
-                    <div class="wrapper">
-                        <a href="mailto:info@email.com" class="contact-link">PetaniMilenial.indo@gmail.com</a>
-
-                        <a href="tel:082324757905" class="contact-link">082324757905</a>
-                    </div>
-
-                    <ul class="social-list">
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-twitter"></ion-icon>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-facebook"></ion-icon>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-dribbble"></ion-icon>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-instagram"></ion-icon>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-youtube"></ion-icon>
-                            </a>
-                        </li>
-
-                    </ul>
-
-                </nav>
-
-                <form action="register.php" method="get">
-                    <button type="submit" class="btn btn-primary">Bergabung</button>
-                </form>
-
-
-                <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
-                    <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
-                </button>
-
-                <div class="overlay" data-nav-toggler data-overlay></div>
-
+            </nav>
+            <!-- search  -
+            <div class="search-box">
+                <input type="text" placeholder="Search..."/>
+                <a href="a"><i class="fa-solid fa-magnifying-glass"></i></a>
             </div>
-        </header>
+
+             -- akhir -->
+
+            <form action="register.php" method="get">
+                <button type="submit" class="btn btn-primary">Bergabung</button>
+            </form>
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+
+        </div>
+    </header>
         <!--navbar-->
 
 
@@ -189,12 +196,12 @@
             <div class="container">
                 <div class="row gx-5">
                     <div class="col-lg-6 mb-5 mb-lg-0">
-                        <div class="d-flex h-100 border border-5 border-primary border-bottom-0 pt-4">
-                            <img class="img-fluid mt-auto mx-auto" src="./assets/images/bagas3.jpg">
+                        <div class="d-flex h-30 border border-5 border-primary border-bottom-5 pt-4">
+                            <img class="img-fluid mt-auto mx-auto" src="./assets/images/drone.jpg">
                         </div>
                     </div>
-                    <div class="col-lg-6 pb-5">
-                        <div class="mb-3 pb-2">
+                    <div class="col-lg-25 pb-5">
+                        <div class="mb-3 pb-5">
                             <h6 class="text-primary text-uppercase">About Us</h6>
                             <h1 class="display-5">Kami Menghasilkan Produk Pertanian Moderen dengan Teknologi Terkini.
                             </h1>
@@ -224,58 +231,51 @@
         <!-- About End -->
 
 
-        <!-- Facts Start -->
-        <div class="container-fluid bg-primary facts py-5 mb-5">
-            <div class="container py-5">
-                <div class="row gx-5 gy-4">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="d-flex">
-                            <div class="bg-secondary rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                <i class="fa fa-star fs-4 text-white"></i>
-                            </div>
-                            <div class="ps-4">
-                                <h5 class="text-white">Our Experience</h5>
-                                <h1 class="display-5 text-white mb-0" data-toggle="counter-up">12345</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="d-flex">
-                            <div class="bg-secondary rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                <i class="fa fa-users fs-4 text-white"></i>
-                            </div>
-                            <div class="ps-4">
-                                <h5 class="text-white">Farm Specialist</h5>
-                                <h1 class="display-5 text-white mb-0" data-toggle="counter-up">12345</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="d-flex">
-                            <div class="bg-secondary rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                <i class="fa fa-check fs-4 text-white"></i>
-                            </div>
-                            <div class="ps-4">
-                                <h5 class="text-white">Complete Project</h5>
-                                <h1 class="display-5 text-white mb-0" data-toggle="counter-up">12345</h1>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="d-flex">
-                            <div class="bg-secondary rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
-                                <i class="fa fa-mug-hot fs-4 text-white"></i>
-                            </div>
-                            <div class="ps-4">
-                                <h5 class="text-white">Happy Clients</h5>
-                                <h1 class="display-5 text-white mb-0" data-toggle="counter-up">12345</h1>
-                            </div>
-                        </div>
-                    </div>
+            <!-- 
+        - #STATS
+      -->
+
+      <section class="stats" aria-label="our stats">
+                <div class="container">
+
+                    <ul class="stats-card has-bg-image" style="background-image: url('./assets/images/stats-bg.jpg')">
+
+                        <li>
+                            <p class="card-text">
+                                <span class="h1">7518</span>
+
+                                <spna class="span">Proyek Selesai</spna>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p class="card-text">
+                                <span class="h1">3472</span>
+
+                                <spna class="span">Pelanggan Puas</spna>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p class="card-text">
+                                <span class="h1">2184</span>
+
+                                <spna class="span">Orang Berpengalaman</spna>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p class="card-text">
+                                <span class="h1">4523</span>
+
+                                <spna class="span">Penghargaan</spna>
+                            </p>
+                        </li>
+
+                    </ul>
+
                 </div>
-            </div>
-        </div>
-        <!-- Facts End -->
+            </section>
 
 
         <!-- Team Start -->
@@ -283,7 +283,7 @@
             <div class="container">
                 <div class="mx-auto text-center mb-5" style="max-width: 500px;">
                     <h6 class="text-primary text-uppercase">The Team</h6>
-                    <h1 class="display-5">We Are Professional Organic Farmers</h1>
+                    <h1 class="display-5">Kami Adalah Petani Organik Profesional</h1>
                 </div>
                 <div class="row g-5">
                     <div class="col-lg-4 col-md-6">
@@ -293,17 +293,11 @@
                                     <img class="img-fluid w-100" src="./assets/images/mahfud.jpg" alt="">
                                     <div class="position-absolute start-0 bottom-0 w-100 py-3 px-4" style="background: rgba(52, 173, 84, .85);">
                                         <h4 class="text-white">Achmad Mahfud</h4>
-                                        <span class="text-white">Designation</span>
+                                        <span class="text-white">Front End</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-2">
-                                <div class="h-100 d-flex flex-column align-items-center justify-content-around bg-secondary py-5">
-                                    <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-twitter text-secondary"></i></a>
-                                    <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-facebook-f text-secondary"></i></a>
-                                    <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-linkedin-in text-secondary"></i></a>
-                                    <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-instagram text-secondary"></i></a>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -314,17 +308,11 @@
                                     <img class="img-fluid w-100" src="./assets/images/bagas4.jpg" alt="">
                                     <div class="position-absolute start-0 bottom-0 w-100 py-3 px-4" style="background: rgba(52, 173, 84, .85);">
                                         <h4 class="text-white">Bagas Dwi Prasetyo</h4>
-                                        <span class="text-white">Designation</span>
+                                        <span class="text-white">CEO Petani Mielnial</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-2">
-                                <div class="h-100 d-flex flex-column align-items-center justify-content-around bg-secondary py-5">
-                                    <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-twitter text-secondary"></i></a>
-                                    <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-facebook-f text-secondary"></i></a>
-                                    <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-linkedin-in text-secondary"></i></a>
-                                    <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-instagram text-secondary"></i></a>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -332,20 +320,14 @@
                         <div class="row g-0">
                             <div class="col-10">
                                 <div class="position-relative">
-                                    <img class="img-fluid w-100" src="./assets/images/danny.jpg" alt="">
+                                    <img class="img-fluid w-100" src="./assets/images/pq.jpg" alt="">
                                     <div class="position-absolute start-0 bottom-0 w-100 py-3 px-4" style="background: rgba(52, 173, 84, .85);">
-                                        <h4 class="text-white">Danny Irawan</h4>
-                                        <span class="text-white">Designation</span>
+                                        <h4 class="text-white">Raihan Tantowi</h4>
+                                        <span class="text-white">Back End</span>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-2">
-                                <div class="h-100 d-flex flex-column align-items-center justify-content-around bg-secondary py-5">
-                                    <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-twitter text-secondary"></i></a>
-                                    <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-facebook-f text-secondary"></i></a>
-                                    <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-linkedin-in text-secondary"></i></a>
-                                    <a class="btn btn-square rounded-circle bg-white" href="#"><i class="fab fa-instagram text-secondary"></i></a>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -355,126 +337,120 @@
         <!-- Team End -->
 
 
-        <!-- 
+    <!-- 
     - #FOOTER
   -->
 
-        <footer class="footer">
-            <div class="container grid-list">
+  <footer class="footer">
+        <div class="container grid-list">
 
-                <div class="footer-brand">
+            <div class="footer-brand">
 
-                    <a href="#" class="logo">
-                        <img src="./assets/images/logopetanimuda.png" width="74" height="24" alt="Adex home">
-                    </a>
+                <a href="#" class="logo">
+                    <img src="./assets/images/logopetanimuda.png" width="74" height="24" alt="Adex home">
+                </a>
 
-                    <p class="footer-text">
-                        &copy; 2024 PT Bazma Corporation Berdikari. <br> All rights reserved.
-                    </p>
+                <p class="footer-text">
+                    &copy; 2024 PT Bazma Corporation Berdikari. <br> All rights reserved.
+                </p>
 
-                    <ul class="social-list">
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-facebook"></ion-icon>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-twitter"></ion-icon>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-dribbble"></ion-icon>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-instagram"></ion-icon>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-youtube"></ion-icon>
-                            </a>
-                        </li>
-
-                    </ul>
-
-                </div>
-
-                <ul class="footer-list">
+                <ul class="social-list">
 
                     <li>
-                        <p class="h4 footer-list-title">Get in Touch</p>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
                     </li>
 
                     <li>
-                        <address class="footer-text">
-                            Jl. Suging Klabangkara , Tegal, Indonesia
-                        </address>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
                     </li>
 
                     <li>
-                        <a href="mailto:info@email.com" class="footer-link">petanimilenial.indo@gmail.com</a>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
                     </li>
 
                     <li>
-                        <a href="tel:001234567890" class="footer-link">082324757905</a>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
                     </li>
 
                 </ul>
-
-                <ul class="footer-list">
-
-                    <li>
-                        <p class="h4 footer-list-title">Learn More</p>
-                    </li>
-
-                    <li>
-                        <a href="#" class="footer-link">About Us</a>
-                    </li>
-
-                    <li>
-                        <a href="#" class="footer-link">Our Story</a>
-                    </li>
-
-                    <li>
-                        <a href="#projek" class="footer-link">Projects</a>
-                    </li>
-
-                    <li>
-                        <a href="#" class="footer-link">Terms of Use</a>
-                    </li>
-
-                    <li>
-                        <a href="#" class="footer-link">Privacy Policy</a>
-                    </li>
-
-                </ul>
-
-                <div class="footer-list">
-
-                    <p class="h4 footer-list-title">Our Newsletter</p>
-
-                    <p class="footer-text">
-                        Subscribe to our newsletter to get our news & deals delivered to you.
-                    </p>
-
-                    <form action="send_email.php" method="post" class="input-wrapper">
-                        <input type="email" name="email" placeholder="Email Address" required class="input-field">
-                        <button type="submit" class="submit-btn">Join</button>
-                    </form>
-
-                </div>
 
             </div>
-        </footer>
+
+            <ul class="footer-list">
+
+                <li>
+                    <p class="h4 footer-list-title">Alamat Kantor</p>
+                </li>
+
+                <li>
+                    <address class="footer-text">
+                        Jl. Suging Klabangkara , Tegal, Indonesia
+                    </address>
+                </li>
+
+                <li>
+                    <a href="mailto:info@email.com" class="footer-link">petanimilenial.indo@gmail.com</a>
+                </li>
+
+                <li>
+                    <a href="tel:001234567890" class="footer-link">082324757905</a>
+                </li>
+
+            </ul>
+
+            <ul class="footer-list">
+
+                <li>
+                    <p class="h4 footer-list-title">Selengkapnya</p>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">About Us</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Our Story</a>
+                </li>
+
+                <li>
+                    <a href="#projek" class="footer-link">Projects</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Terms of Use</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                </li>
+
+            </ul>
+
+            <div class="footer-list">
+
+                <p class="h4 footer-list-title">Surat Kabar Kami</p>
+
+                <p class="footer-text">
+                Berlangganan surat kabar kami untuk mendapatkan berita & penawaran kami dikirimkan kepada Anda.
+                </p>
+
+                <form action="send_email.php" method="post" class="input-wrapper">
+                    <input type="email" name="email" placeholder="Alamat Email" required class="input-field">
+                    <button type="submit" class="submit-btn">Gabung</button>
+                </form>
+
+            </div>
+
+        </div>
+    </footer>
 
         <!-- Tombol Melayang -->
         <div class="floating-buttons">

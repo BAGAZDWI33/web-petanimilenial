@@ -59,114 +59,121 @@
 
     <body>
 
-        <!-- 
-- #HEADER
--->
+    <!-- 
+    - #HEADER Navbar
+  -->
 
-        <header class="header" data-header>
-            <div class="container">
+  <header class="header" data-header>
+        <div class="container">
 
-                <a href="#" class="logo">
-                    <img src="./assets/images/logopetanimuda.png" width="74" height="24" alt="Adex home" class="logo-light">
+            <a href="#" class="logo">
+                <img src="./assets/images/logopetanimuda.png" width="74" height="24" alt="Adex home" class="logo-light">
 
-                    <img src="./assets/images/logopetanimuda.png" width="74" height="24" alt="Adex home" class="logo-dark">
-                </a>
+                <img src="./assets/images/logopetanimuda.png" width="74" height="24" alt="Adex home" class="logo-dark">
+            </a>
 
-                <nav class="navbar" data-navbar>
+            <nav class="navbar" data-navbar>
 
-                    <div class="navbar-top">
-                        <a href="#" class="logo">
-                            <img src="./assets/images/logopetanimuda.png" width="74" height="24" alt="PetaniMilenial home">
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <img src="./assets/images/logopetanimuda.png" width="74" height="24" alt="PetaniMilenial home">
+                    </a>
+
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+
+                <ul class="navbar-list">
+
+                    <li>
+                        <a href="index.php" class="navbar-link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="aboutme.php" class="navbar-link">Tentang Kami</a>
+                    </li>
+
+                    <li>
+                        <a href="galeri.php" class="navbar-link">Galeri</a>
+                    </li>
+
+                    <li>
+                        <a href="layanan.php" class="navbar-link">Layanan</a>
+                    </li>
+
+                    <li>
+                        <a href="blog.php" class="navbar-link">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.php" class="navbar-link">Kontak</a>
+                    </li>
+
+                </ul>
+                
+
+                <div class="wrapper">
+                    <a href="mailto:info@email.com" class="contact-link">PetaniMilenial.indo@gmail.com</a>
+
+                    <a href="tel:082324757905" class="contact-link">082324757905</a>
+                </div>
+
+                <ul class="social-list">
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
                         </a>
+                    </li>
 
-                        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
-                            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
-                        </button>
-                    </div>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
 
-                    <ul class="navbar-list">
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-dribbble"></ion-icon>
+                        </a>
+                    </li>
 
-                        <li>
-                            <a href="index.php" class="navbar-link">Home</a>
-                        </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
 
-                        <li>
-                            <a href="aboutme.php" class="navbar-link">About</a>
-                        </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                    </li>
 
-                        <li>
-                            <a href="galeri.php" class="navbar-link">Galeri</a>
-                        </li>
+                </ul>
 
-                        <li>
-                            <a href="layanan.php" class="navbar-link">Layanan</a>
-                        </li>
-
-                        <li>
-                            <a href="blog.php" class="navbar-link">Blog</a>
-                        </li>
-
-                        <li>
-                            <a href="contact.php" class="navbar-link">Contact</a>
-                        </li>
-
-                    </ul>
-
-                    <div class="wrapper">
-                        <a href="mailto:info@email.com" class="contact-link">PetaniMilenial.indo@gmail.com</a>
-
-                        <a href="tel:082324757905" class="contact-link">082324757905</a>
-                    </div>
-
-                    <ul class="social-list">
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-twitter"></ion-icon>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-facebook"></ion-icon>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-dribbble"></ion-icon>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-instagram"></ion-icon>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-youtube"></ion-icon>
-                            </a>
-                        </li>
-
-                    </ul>
-
-                </nav>
-
-                <form action="register.php" method="get">
-                    <button type="submit" class="btn btn-primary">Bergabung</button>
-                </form>
-
-
-                <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
-                    <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
-                </button>
-
-                <div class="overlay" data-nav-toggler data-overlay></div>
-
+            </nav>
+            <!-- search  -
+            <div class="search-box">
+                <input type="text" placeholder="Search..."/>
+                <a href="a"><i class="fa-solid fa-magnifying-glass"></i></a>
             </div>
-        </header>
+
+             -- akhir -->
+
+            <form action="register.php" method="get">
+                <button type="submit" class="btn btn-primary">Bergabung</button>
+            </form>
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+
+        </div>
+    </header>
         <!--navbar-->
 
 
@@ -203,126 +210,120 @@
         <!-- Team End -->
 
 
-        <!-- 
+    <!-- 
     - #FOOTER
   -->
 
-        <footer class="footer">
-            <div class="container grid-list">
+  <footer class="footer">
+        <div class="container grid-list">
 
-                <div class="footer-brand">
+            <div class="footer-brand">
 
-                    <a href="#" class="logo">
-                        <img src="./assets/images/logopetanimuda.png" width="74" height="24" alt="Adex home">
-                    </a>
+                <a href="#" class="logo">
+                    <img src="./assets/images/logopetanimuda.png" width="74" height="24" alt="Adex home">
+                </a>
 
-                    <p class="footer-text">
-                        &copy; 2024 PT Bazma Corporation Berdikari. <br> All rights reserved.
-                    </p>
+                <p class="footer-text">
+                    &copy; 2024 PT Bazma Corporation Berdikari. <br> All rights reserved.
+                </p>
 
-                    <ul class="social-list">
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-facebook"></ion-icon>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-twitter"></ion-icon>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-dribbble"></ion-icon>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-instagram"></ion-icon>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" class="social-link">
-                                <ion-icon name="logo-youtube"></ion-icon>
-                            </a>
-                        </li>
-
-                    </ul>
-
-                </div>
-
-                <ul class="footer-list">
+                <ul class="social-list">
 
                     <li>
-                        <p class="h4 footer-list-title">Get in Touch</p>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
                     </li>
 
                     <li>
-                        <address class="footer-text">
-                            Jl. Suging Klabangkara , Tegal, Indonesia
-                        </address>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
                     </li>
 
                     <li>
-                        <a href="mailto:info@email.com" class="footer-link">petanimilenial.indo@gmail.com</a>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
                     </li>
 
                     <li>
-                        <a href="tel:001234567890" class="footer-link">082324757905</a>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
                     </li>
 
                 </ul>
-
-                <ul class="footer-list">
-
-                    <li>
-                        <p class="h4 footer-list-title">Learn More</p>
-                    </li>
-
-                    <li>
-                        <a href="#" class="footer-link">About Us</a>
-                    </li>
-
-                    <li>
-                        <a href="#" class="footer-link">Our Story</a>
-                    </li>
-
-                    <li>
-                        <a href="#projek" class="footer-link">Projects</a>
-                    </li>
-
-                    <li>
-                        <a href="#" class="footer-link">Terms of Use</a>
-                    </li>
-
-                    <li>
-                        <a href="#" class="footer-link">Privacy Policy</a>
-                    </li>
-
-                </ul>
-
-                <div class="footer-list">
-
-                    <p class="h4 footer-list-title">Our Newsletter</p>
-
-                    <p class="footer-text">
-                        Subscribe to our newsletter to get our news & deals delivered to you.
-                    </p>
-
-                    <form action="send_email.php" method="post" class="input-wrapper">
-                        <input type="email" name="email" placeholder="Email Address" required class="input-field">
-                        <button type="submit" class="submit-btn">Join</button>
-                    </form>
-
-                </div>
 
             </div>
-        </footer>
+
+            <ul class="footer-list">
+
+                <li>
+                    <p class="h4 footer-list-title">Alamat Kantor</p>
+                </li>
+
+                <li>
+                    <address class="footer-text">
+                        Jl. Suging Klabangkara , Tegal, Indonesia
+                    </address>
+                </li>
+
+                <li>
+                    <a href="mailto:info@email.com" class="footer-link">petanimilenial.indo@gmail.com</a>
+                </li>
+
+                <li>
+                    <a href="tel:001234567890" class="footer-link">082324757905</a>
+                </li>
+
+            </ul>
+
+            <ul class="footer-list">
+
+                <li>
+                    <p class="h4 footer-list-title">Selengkapnya</p>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">About Us</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Our Story</a>
+                </li>
+
+                <li>
+                    <a href="#projek" class="footer-link">Projects</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Terms of Use</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                </li>
+
+            </ul>
+
+            <div class="footer-list">
+
+                <p class="h4 footer-list-title">Surat Kabar Kami</p>
+
+                <p class="footer-text">
+                Berlangganan surat kabar kami untuk mendapatkan berita & penawaran kami dikirimkan kepada Anda.
+                </p>
+
+                <form action="send_email.php" method="post" class="input-wrapper">
+                    <input type="email" name="email" placeholder="Alamat Email" required class="input-field">
+                    <button type="submit" class="submit-btn">Gabung</button>
+                </form>
+
+            </div>
+
+        </div>
+    </footer>
 
         <!-- Tombol Melayang -->
         <div class="floating-buttons">
@@ -333,11 +334,6 @@
                 <img src="./assets/images/facebook.svg" alt="Facebook">
             </a>
         </div>
-
-
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-secondary py-3 fs-4 back-to-top"><i class="bi bi-arrow-up"></i></a>
-
 
         <!-- JavaScript Libraries -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

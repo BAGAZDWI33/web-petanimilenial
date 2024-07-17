@@ -37,10 +37,10 @@
 <body>
 
     <!-- 
-    - #HEADER
+    - #HEADER Navbar
   -->
 
-    <header class="header" data-header>
+  <header class="header" data-header>
         <div class="container">
 
             <a href="#" class="logo">
@@ -68,7 +68,7 @@
                     </li>
 
                     <li>
-                        <a href="aboutme.php" class="navbar-link">About</a>
+                        <a href="aboutme.php" class="navbar-link">Tentang Kami</a>
                     </li>
 
                     <li>
@@ -80,14 +80,15 @@
                     </li>
 
                     <li>
-                        <a href="blogdetail.php" class="navbar-link">Blog</a>
+                        <a href="blog.php" class="navbar-link">Blog</a>
                     </li>
 
                     <li>
-                        <a href="contact.php" class="navbar-link">Contact</a>
+                        <a href="contact.php" class="navbar-link">Kontak</a>
                     </li>
 
                 </ul>
+                
 
                 <div class="wrapper">
                     <a href="mailto:info@email.com" class="contact-link">PetaniMilenial.indo@gmail.com</a>
@@ -130,11 +131,17 @@
                 </ul>
 
             </nav>
+            <!-- search  -
+            <div class="search-box">
+                <input type="text" placeholder="Search..."/>
+                <a href="a"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+
+             -- akhir -->
 
             <form action="register.php" method="get">
                 <button type="submit" class="btn btn-primary">Bergabung</button>
             </form>
-
 
             <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
                 <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
@@ -170,8 +177,8 @@
                         <div class="blog-item position-relative overflow-hidden">
                             <img class="img-fluid" src="img/blog-1.jpg" alt="">
                             <a class="blog-overlay" href="blogdetail.php">
-                                <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
-                                <span class="text-white fw-bold">Jan 01, 2050</span>
+                                <h4 class="text-white">Menjelajahi Dunia Oranye: Panduan Lengkap Menanam dan Memanen Wortel</h4>
+                                <span class="text-white fw-bold">Mar 17, 2024</span>
                             </a>
                         </div>
                     </div>
@@ -179,8 +186,8 @@
                         <div class="blog-item position-relative overflow-hidden">
                             <img class="img-fluid" src="img/blog-2.jpg" alt="">
                             <a class="blog-overlay" href="">
-                                <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
-                                <span class="text-white fw-bold">Jan 01, 2050</span>
+                                <h4 class="text-white">Panen Wortel dengan hasil yang memuaskan</h4>
+                                <span class="text-white fw-bold">Jul 01, 2024</span>
                             </a>
                         </div>
                     </div>
@@ -188,8 +195,8 @@
                         <div class="blog-item position-relative overflow-hidden">
                             <img class="img-fluid" src="img/blog-3.jpg" alt="">
                             <a class="blog-overlay" href="">
-                                <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
-                                <span class="text-white fw-bold">Jan 01, 2050</span>
+                                <h4 class="text-white">Panen Tomat dengan buah yang bagus</h4>
+                                <span class="text-white fw-bold">Feb 01, 2024</span>
                             </a>
                         </div>
                     </div>
@@ -197,8 +204,8 @@
                         <div class="blog-item position-relative overflow-hidden">
                             <img class="img-fluid" src="img/blog-1.jpg" alt="">
                             <a class="blog-overlay" href="">
-                                <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
-                                <span class="text-white fw-bold">Jan 01, 2050</span>
+                                <h4 class="text-white">Penanaman Tomat dengan cara manual</h4>
+                                <span class="text-white fw-bold">Jan 13, 2024</span>
                             </a>
                         </div>
                     </div>
@@ -206,56 +213,12 @@
                         <div class="blog-item position-relative overflow-hidden">
                             <img class="img-fluid" src="img/blog-2.jpg" alt="">
                             <a class="blog-overlay" href="">
-                                <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
-                                <span class="text-white fw-bold">Jan 01, 2050</span>
+                                <h4 class="text-white">Penegcekan hasil penanman wortel siap panen</h4>
+                                <span class="text-white fw-bold">Jun 30, 2024</span>
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="blog-item position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/blog-3.jpg" alt="">
-                            <a class="blog-overlay" href="">
-                                <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
-                                <span class="text-white fw-bold">Jan 01, 2050</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="blog-item position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/blog-1.jpg" alt="">
-                            <a class="blog-overlay" href="">
-                                <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
-                                <span class="text-white fw-bold">Jan 01, 2050</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="blog-item position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/blog-2.jpg" alt="">
-                            <a class="blog-overlay" href="">
-                                <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
-                                <span class="text-white fw-bold">Jan 01, 2050</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="blog-item position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/blog-3.jpg" alt="">
-                            <a class="blog-overlay" href="">
-                                <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
-                                <span class="text-white fw-bold">Jan 01, 2050</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="blog-item position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/blog-1.jpg" alt="">
-                            <a class="blog-overlay" href="">
-                                <h4 class="text-white">Lorem elitr magna stet eirmod labore amet</h4>
-                                <span class="text-white fw-bold">Jan 01, 2050</span>
-                            </a>
-                        </div>
-                    </div>
+
                     <div class="col-12">
                         <nav aria-label="Page navigation">
                             <ul class="pagination pagination-lg justify-content-center m-0">
@@ -292,96 +255,59 @@
 
                 <!-- Category Start -->
                 <div class="mb-5">
-                    <h2 class="mb-4">Categories</h2>
+                    <h2 class="mb-4">Kategori</h2>
                     <div class="d-flex flex-column justify-content-start bg-primary p-4">
-                        <a class="fs-5 fw-bold text-white mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Web
-                            Design</a>
-                        <a class="fs-5 fw-bold text-white mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Web
-                            Development</a>
-                        <a class="fs-5 fw-bold text-white mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Web
-                            Development</a>
-                        <a class="fs-5 fw-bold text-white mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Keyword
-                            Research</a>
-                        <a class="fs-5 fw-bold text-white" href="#"><i class="bi bi-arrow-right me-2"></i>Email
-                            Marketing</a>
+                        <a class="fs-5 fw-bold text-white mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Pertanian Padi</a>
+                        <a class="fs-5 fw-bold text-white mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Palawija</a>
+                        <a class="fs-5 fw-bold text-white mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Budidaya Anggur</a>
+                        <a class="fs-5 fw-bold text-white mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Penyewaan Alat Pertanian</a>
+                        <a class="fs-5 fw-bold text-white" href="#"><i class="bi bi-arrow-right me-2"></i>Penyuluhan Pertanian</a>
                     </div>
                 </div>
                 <!-- Category End -->
 
                 <!-- Recent Post Start -->
                 <div class="mb-5">
-                    <h2 class="mb-4">Recent Post</h2>
+                    <h2 class="mb-4">Postingan Terbaru</h2>
                     <div class="bg-primary p-4">
                         <div class="d-flex overflow-hidden mb-3">
                             <img class="img-fluid flex-shrink-0" src="img/blog-1.jpg" style="width: 75px;" alt="">
-                            <a href="" class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Lorem
-                                ipsum dolor sit amet elit
+                            <a href="" class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Menjelajahi Dunia Oranye: Panduan Lengkap Menanam dan Memanen Wortel
                             </a>
                         </div>
                         <div class="d-flex overflow-hidden mb-3">
                             <img class="img-fluid flex-shrink-0" src="img/blog-2.jpg" style="width: 75px;" alt="">
-                            <a href="" class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Lorem
-                                ipsum dolor sit amet elit
+                            <a href="" class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Panen Wortel dengan hasil yang memuaskan
+                            </a>
+                        </div>
+                        <div class="d-flex overflow-hidden mb-3">
+                            <img class="img-fluid flex-shrink-0" src="img/blog-1.jpg" style="width: 75px;" alt="">
+                            <a href="" class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Penanaman Tomat dengan cara manual
                             </a>
                         </div>
                         <div class="d-flex overflow-hidden mb-3">
                             <img class="img-fluid flex-shrink-0" src="img/blog-3.jpg" style="width: 75px;" alt="">
-                            <a href="" class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Lorem
-                                ipsum dolor sit amet elit
+                            <a href="" class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Panen Tomat dengan buah yang bagus
                             </a>
                         </div>
-                        <div class="d-flex overflow-hidden mb-3">
-                            <img class="img-fluid flex-shrink-0" src="img/blog-1.jpg" style="width: 75px;" alt="">
-                            <a href="" class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Lorem
-                                ipsum dolor sit amet elit
-                            </a>
-                        </div>
+
                         <div class="d-flex overflow-hidden">
                             <img class="img-fluid flex-shrink-0" src="img/blog-2.jpg" style="width: 75px;" alt="">
-                            <a href="" class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Lorem
-                                ipsum dolor sit amet elit
+                            <a href="" class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Penegcekan hasil penanman wortel siap panen
                             </a>
                         </div>
                     </div>
                 </div>
                 <!-- Recent Post End -->
 
-                <!-- Image Start -->
-                <div class="mb-5">
-                    <img src="img/blog-1.jpg" alt="" class="img-fluid rounded">
-                </div>
-                <!-- Image End -->
-
-                <!-- Tags Start -->
-                <div class="mb-5">
-                    <h2 class="mb-4">Tag Cloud</h2>
-                    <div class="d-flex flex-wrap m-n1">
-                        <a href="" class="btn btn-primary m-1">Design</a>
-                        <a href="" class="btn btn-primary m-1">Development</a>
-                        <a href="" class="btn btn-primary m-1">Marketing</a>
-                        <a href="" class="btn btn-primary m-1">SEO</a>
-                        <a href="" class="btn btn-primary m-1">Writing</a>
-                        <a href="" class="btn btn-primary m-1">Consulting</a>
-                        <a href="" class="btn btn-primary m-1">Design</a>
-                        <a href="" class="btn btn-primary m-1">Development</a>
-                        <a href="" class="btn btn-primary m-1">Marketing</a>
-                        <a href="" class="btn btn-primary m-1">SEO</a>
-                        <a href="" class="btn btn-primary m-1">Writing</a>
-                        <a href="" class="btn btn-primary m-1">Consulting</a>
-                    </div>
-                </div>
-                <!-- Tags End -->
-
                 <!-- Plain Text Start -->
                 <div>
-                    <h2 class="mb-4">Plain Text</h2>
+                    <h2 class="mb-4">Tentang Blog</h2>
                     <div class="bg-primary text-center text-white" style="padding: 30px;">
-                        <p>Vero sea et accusam justo dolor accusam lorem consetetur, dolores sit amet sit dolor
-                            clita
-                            kasd justo, diam accusam no sea ut tempor magna takimata, amet sit et diam dolor ipsum
-                            amet
-                            diam</p>
-                        <a href="" class="btn btn-secondary py-2 px-4">Read More</a>
+                        <p>Blog ini dipersembahkan bagi para petani, penggiat agrikultur, dan semua orang yang ingin menyelami dunia pertanian yang menjanjikan dan penuh peluang.
+                            Temukan panduan dan kiat bertani yang efektif, pelajari teknologi terkini, dan dapatkan inspirasi dari kisah sukses para petani inovatif.
+                            Bergabunglah dengan komunitas dinamis kami untuk saling berbagi ilmu, pengalaman, dan membangun jejaring yang saling menguntungkan.
+                            Mari kita bersama-sama wujudkan masa depan pertanian yang lebih gemilang, berkelanjutan, dan sejahtera!</p>
                     </div>
                 </div>
                 <!-- Plain Text End -->
@@ -396,7 +322,7 @@
     - #FOOTER
   -->
 
-    <footer class="footer">
+  <footer class="footer">
         <div class="container grid-list">
 
             <div class="footer-brand">
@@ -425,12 +351,6 @@
 
                     <li>
                         <a href="#" class="social-link">
-                            <ion-icon name="logo-dribbble"></ion-icon>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#" class="social-link">
                             <ion-icon name="logo-instagram"></ion-icon>
                         </a>
                     </li>
@@ -448,7 +368,7 @@
             <ul class="footer-list">
 
                 <li>
-                    <p class="h4 footer-list-title">Get in Touch</p>
+                    <p class="h4 footer-list-title">Alamat Kantor</p>
                 </li>
 
                 <li>
@@ -470,7 +390,7 @@
             <ul class="footer-list">
 
                 <li>
-                    <p class="h4 footer-list-title">Learn More</p>
+                    <p class="h4 footer-list-title">Selengkapnya</p>
                 </li>
 
                 <li>
@@ -497,15 +417,15 @@
 
             <div class="footer-list">
 
-                <p class="h4 footer-list-title">Our Newsletter</p>
+                <p class="h4 footer-list-title">Surat Kabar Kami</p>
 
                 <p class="footer-text">
-                    Subscribe to our newsletter to get our news & deals delivered to you.
+                Berlangganan surat kabar kami untuk mendapatkan berita & penawaran kami dikirimkan kepada Anda.
                 </p>
 
                 <form action="send_email.php" method="post" class="input-wrapper">
-                    <input type="email" name="email" placeholder="Email Address" required class="input-field">
-                    <button type="submit" class="submit-btn">Join</button>
+                    <input type="email" name="email" placeholder="Alamat Email" required class="input-field">
+                    <button type="submit" class="submit-btn">Gabung</button>
                 </form>
 
             </div>

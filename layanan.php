@@ -66,7 +66,7 @@
     - #HEADER Navbar
   -->
 
-    <header class="header" data-header>
+  <header class="header" data-header>
         <div class="container">
 
             <a href="#" class="logo">
@@ -94,7 +94,7 @@
                     </li>
 
                     <li>
-                        <a href="aboutme.php" class="navbar-link">About</a>
+                        <a href="aboutme.php" class="navbar-link">Tentang Kami</a>
                     </li>
 
                     <li>
@@ -110,10 +110,11 @@
                     </li>
 
                     <li>
-                        <a href="contact.php" class="navbar-link">Contact</a>
+                        <a href="contact.php" class="navbar-link">Kontak</a>
                     </li>
 
                 </ul>
+                
 
                 <div class="wrapper">
                     <a href="mailto:info@email.com" class="contact-link">PetaniMilenial.indo@gmail.com</a>
@@ -156,11 +157,17 @@
                 </ul>
 
             </nav>
+            <!-- search  -
+            <div class="search-box">
+                <input type="text" placeholder="Search..."/>
+                <a href="a"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+
+             -- akhir -->
 
             <form action="register.php" method="get">
                 <button type="submit" class="btn btn-primary">Bergabung</button>
             </form>
-
 
             <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
                 <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
@@ -305,7 +312,7 @@
     - #FOOTER
   -->
 
-    <footer class="footer">
+  <footer class="footer">
         <div class="container grid-list">
 
             <div class="footer-brand">
@@ -334,12 +341,6 @@
 
                     <li>
                         <a href="#" class="social-link">
-                            <ion-icon name="logo-dribbble"></ion-icon>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#" class="social-link">
                             <ion-icon name="logo-instagram"></ion-icon>
                         </a>
                     </li>
@@ -357,7 +358,7 @@
             <ul class="footer-list">
 
                 <li>
-                    <p class="h4 footer-list-title">Get in Touch</p>
+                    <p class="h4 footer-list-title">Alamat Kantor</p>
                 </li>
 
                 <li>
@@ -379,7 +380,7 @@
             <ul class="footer-list">
 
                 <li>
-                    <p class="h4 footer-list-title">Learn More</p>
+                    <p class="h4 footer-list-title">Selengkapnya</p>
                 </li>
 
                 <li>
@@ -406,15 +407,15 @@
 
             <div class="footer-list">
 
-                <p class="h4 footer-list-title">Our Newsletter</p>
+                <p class="h4 footer-list-title">Surat Kabar Kami</p>
 
                 <p class="footer-text">
-                    Subscribe to our newsletter to get our news & deals delivered to you.
+                Berlangganan surat kabar kami untuk mendapatkan berita & penawaran kami dikirimkan kepada Anda.
                 </p>
 
                 <form action="send_email.php" method="post" class="input-wrapper">
-                    <input type="email" name="email" placeholder="Email Address" required class="input-field">
-                    <button type="submit" class="submit-btn">Join</button>
+                    <input type="email" name="email" placeholder="Alamat Email" required class="input-field">
+                    <button type="submit" class="submit-btn">Gabung</button>
                 </form>
 
             </div>
