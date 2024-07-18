@@ -219,7 +219,7 @@
                             </div>
                         </div>
                         <h1 class="mb-4">Teknologi Pengendalian Hama dan Penyakit</h1>
-                        <p>
+                        <p style="text-align: justify; text-indent: 0.5in;">
                             Salah satu metode pengendalian hama tanaman adalah
                             dengan teknik budidaya. Penggunaan mulsa dan pupuk dapat
                             berpengaruh terhadap perkembangan hama pada tanaman. Efek
@@ -236,7 +236,7 @@
                             1% lebih efektif menekan pertumbuhan A. porri dengan daya
                             hambat 43.33%.
                         </p>
-                        <p> Penggunaan jamur Beauveria bassiana untuk mengendalikan
+                        <p style="text-align: justify; text-indent: 0.5in;"> Penggunaan jamur Beauveria bassiana untuk mengendalikan
                             serangan Spodoptera exigua Hubner sudah dilakukan pada
                             varietas bawang merah lembah palu (Allium wakegi). Penelitian
                             yang dilakukan pada tahun 2014 menunjukkan bahwa aplikasi
@@ -261,7 +261,7 @@
                         <div class="col-md-6">
                             <img class="img-fluid w-100" src="img/tanibawang3.jpg" alt="">
                         </div>
-                        <p>Penelitian dengan metode isolasi dan identifikasi
+                        <p style="text-align: justify; text-indent: 0.5in;">Penelitian dengan metode isolasi dan identifikasi
                             jamur patogen A. porri bawang merah dan uji antagonisme
                             Trichoderma sp. terhadap pertumbuhan jamur A. porri,
                             ditemukan bahwa kedua isolat lokal Trichoderma sp. cukup
@@ -269,7 +269,7 @@
                             penyebab penyakit bercak ungu pada tanaman bawang merah
                             secara in vitro, namun presentase penghambatan kedua isolat
                             tidak berbeda nyata (Muksin et al., 2013).</p>
-                        <p> Salah satu teknologi untuk memperbaiki hasil dan kualitas
+                        <p style="text-align: justify; text-indent: 0.5in;"> Salah satu teknologi untuk memperbaiki hasil dan kualitas
                             umbi bawang merah, yaitu dengan aplikasi pupuk majemuk NPK
                             (15-15-15) dan pupuk hayati mikoriza. Hasil umbi bawang merah
                             nyata meningkat dengan aplikasi pupuk NPK (15-15-15) dosis 2.5
@@ -417,7 +417,7 @@
                     <div>
                         <h2 class="mb-4">Tentang Blog</h2>
                         <div class="bg-primary text-center text-white" style="padding: 30px;">
-                            <p>Blog ini dipersembahkan bagi para petani, penggiat agrikultur, dan semua orang yang ingin
+                            <p align="justify">Blog ini dipersembahkan bagi para petani, penggiat agrikultur, dan semua orang yang ingin
                                 menyelami dunia pertanian yang menjanjikan dan penuh peluang.
                                 Temukan panduan dan kiat bertani yang efektif, pelajari teknologi terkini, dan dapatkan
                                 inspirasi dari kisah sukses para petani inovatif.

@@ -216,32 +216,32 @@
                             </div>
                         </div>
                         <h1 class="mb-4">Menjelajahi Dunia Oranye: Panduan Lengkap Menanam dan Memanen Wortel</h1>
-                        <p>Wortel, si mungil berwarna oranye yang kaya akan vitamin dan mineral, ternyata mudah ditanam. 
+                        <p style="text-align: justify; text-indent: 0.5in;">Wortel, si mungil berwarna oranye yang kaya akan vitamin dan mineral, ternyata mudah ditanam. 
                             Bagi Anda yang ingin memulai berkebun, menanam wortel bisa menjadi pilihan yang tepat. 
                             Berikut panduan lengkapnya untuk menemani perjalanan Anda dalam menanam dan memanen wortel.</p>
-                        <p>Mempersiapkan Lahan Tanam yang Ideal:
+                        <p style="text-align: justify; text-indent: 0.5in;">Mempersiapkan Lahan Tanam yang Ideal:
                             Pilihlah lokasi yang terkena sinar matahari minimal 6 jam per hari. Wortel membutuhkan sinar matahari yang cukup untuk tumbuh dengan optimal.
                             Gunakan tanah yang gembur, kaya akan bahan organik, dan memiliki drainase yang baik. Tanah yang ideal untuk wortel memiliki pH antara 6,0 hingga 6,8.
                             Siapkan bedengan dengan ketinggian sekitar 15-20 cm dan lebar 30-40 cm. Pastikan bedengan dibuat dengan rapi agar air tidak tergenang.</p>
-                        <p>Menanam Benih Wortel:
+                        <p style="text-align: justify; text-indent: 0.5in;">Menanam Benih Wortel:
                             Pilihlah benih wortel berkualitas baik. Benih wortel tersedia dalam berbagai varietas, seperti wortel merah, oranye, dan ungu. Anda dapat memilih varietas yang sesuai dengan selera Anda.
                             Buatlah alur tanam dengan kedalaman sekitar 1 cm dan jarak antar alur 20-30 cm.
                             Tanamlah benih wortel dengan jarak 2-3 cm antar benih.
                             Tutup alur tanam dengan tanah tipis dan siram perlahan dengan air.</p>
-                        <p>Merawat Wortel dengan Penuh Perhatian:
+                        <p style="text-align: justify; text-indent: 0.5in;">Merawat Wortel dengan Penuh Perhatian:
                             Siramlah wortel secara rutin, terutama saat cuaca panas dan kering. Pastikan tanah tidak terlalu basah atau terlalu kering.
                             Berikan pupuk organik secara berkala, 2-3 minggu sekali. Pupuk kandang atau kompos merupakan pilihan yang tepat untuk wortel.
                             Bersihkan gulma yang tumbuh di sekitar tanaman wortel. Gulma dapat mengganggu pertumbuhan wortel dan menjadi tempat persembunyian hama.
                             Lakukan penyiangan secara hati-hati agar tidak merusak tanaman wortel.</p>
-                        <p>Memanen Wortel yang Manis dan Juicy:
+                        <p style="text-align: justify; text-indent: 0.5in;">Memanen Wortel yang Manis dan Juicy:
                             Wortel umumnya siap panen setelah 70-100 hari setelah tanam. Tanda wortel siap panen adalah daunnya yang mulai menguning dan umbi wortel yang sudah menonjol keluar dari tanah.
                             Panen wortel dengan hati-hati agar tidak merusak umbinya. Gunakan garpu kebun untuk mencabut wortel dengan perlahan.
                             Setelah dipanen, bersihkan wortel dari tanah dan potong daunnya. Simpan wortel di tempat yang sejuk dan kering.</p>
-                        <p>Tips Menanam Wortel yang Sukses:
+                        <p style="text-align: justify; text-indent: 0.5in;">Tips Menanam Wortel yang Sukses:
                             Pilihlah waktu tanam yang tepat. Waktu tanam yang ideal untuk wortel di Indonesia adalah pada musim kemarau, yaitu antara bulan April hingga Oktober.
                             Gunakan mulsa untuk menjaga kelembapan tanah dan menekan pertumbuhan gulma.
                             Lakukan pencegahan hama dan penyakit tanaman. Lakukan rotasi tanaman secara berkala dan gunakan pestisida alami jika diperlukan.</p>
-                        <p>Menanam wortel di rumah tidak hanya menyenangkan, tetapi juga memberikan banyak manfaat.
+                        <p style="text-align: justify; text-indent: 0.5in;">Menanam wortel di rumah tidak hanya menyenangkan, tetapi juga memberikan banyak manfaat.
                             Anda dapat menikmati hasil panen wortel yang segar dan kaya akan nutrisi.
                             Wortel juga dapat diolah menjadi berbagai hidangan lezat dan bergizi.</p>
                         <p></p>
@@ -361,7 +361,7 @@
                     <div>
                         <h2 class="mb-4">Tentang Blog</h2>
                         <div class="bg-primary text-center text-white" style="padding: 30px;">
-                            <p>Blog ini dipersembahkan bagi para petani, penggiat agrikultur, dan semua orang yang ingin menyelami dunia pertanian yang menjanjikan dan penuh peluang.
+                            <p align="justify">Blog ini dipersembahkan bagi para petani, penggiat agrikultur, dan semua orang yang ingin menyelami dunia pertanian yang menjanjikan dan penuh peluang.
                                 Temukan panduan dan kiat bertani yang efektif, pelajari teknologi terkini, dan dapatkan inspirasi dari kisah sukses para petani inovatif.
                                 Bergabunglah dengan komunitas dinamis kami untuk saling berbagi ilmu, pengalaman, dan membangun jejaring yang saling menguntungkan.
                                 Mari kita bersama-sama wujudkan masa depan pertanian yang lebih gemilang, berkelanjutan, dan sejahtera!</p>

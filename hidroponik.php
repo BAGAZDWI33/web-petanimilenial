@@ -217,7 +217,7 @@
 
                         </div>
                         <h1 class="mb-4">Pemuda Tegal- Hidroponik dan gubernur jateng</h1>
-                        <p>TEGAL, iNews.id – Usaha UMKM tanaman hidroponik asal Desa/Kecamatan Bojong, Kabupaten Tegal
+                        <p style="text-align: justify; text-indent: 0.5in;">TEGAL, iNews.id – Usaha UMKM tanaman hidroponik asal Desa/Kecamatan Bojong, Kabupaten Tegal
                             ini berkembang pesat. Hasil usaha bisa untuk menyantuni anak yatim serta mampu menggandeng
                             pemuda untuk bersama jadi petani.
 
@@ -225,19 +225,19 @@
                             di tempat greenhouse-nya di kaki Gunung Slamet, Jalan H Sulaiman RT 06 RW 01, Desa/Kecamatan
                             Bojong, Kabupaten Tegal.
                         </p>
-                        <p>Menurutnya, perkembangan pesat yang dialami UMKM hidroponik yang dikelolanya tak lepas dari
+                        <p style="text-align: justify; text-indent: 0.5in;">Menurutnya, perkembangan pesat yang dialami UMKM hidroponik yang dikelolanya tak lepas dari
                             keikutsertaan dalam program Lapak Ganjar.
 
                             "Setelah direpost di Instagramnya pak Ganjar, Alhamdulillah banyak manfaatnya di usaha saya.
                             Terutama di bidang usaha saya di edukasi pertanian," kata Firman, sapaannya.</p>
-                        <p>Menurutnya, usai di-repost Lapak Ganjar, melalui pesan di Instagram (direct messages atau
+                        <p style="text-align: justify; text-indent: 0.5in;">Menurutnya, usai di-repost Lapak Ganjar, melalui pesan di Instagram (direct messages atau
                             pesan langsung), banyak orang yang bertanya tentang usahanya. Mulai dari cara bertani sampai
                             cara berbudi daya hidroponik. Terutama mereka para pemuda generasi milenial yang ingin
                             menjadi petani.</p>
                         <div class="col-md-6">
                             <img class="img-fluid w-100" src="img/hidroponiktegal2.jpg" alt="">
                         </div>
-                        <p>Hidroponik adalah metode budidaya tanaman tanpa menggunakan tanah, melainkan memanfaatkan air
+                        <p style="text-align: justify; text-indent: 0.5in;">Hidroponik adalah metode budidaya tanaman tanpa menggunakan tanah, melainkan memanfaatkan air
                             yang telah dicampur dengan nutrisi. Sistem ini menjadi solusi bagi masalah keterbatasan
                             lahan dan perubahan iklim. Tegal, sebagai salah satu daerah agraris di Indonesia, mulai
                             mengadopsi teknologi hidroponik untuk meningkatkan produktivitas pertanian.
@@ -245,7 +245,7 @@
                             Di era digital, penggunaan Internet of Things (IoT) dalam sistem hidroponik semakin populer.
                             IoT memungkinkan pemantauan dan pengelolaan tanaman secara real-time, sehingga meningkatkan
                             efisiensi dan efektivitas produksi.</p>
-                        <p>Manfaat Penggunaan IoT dalam Hidroponik
+                        <p style="text-align: justify; text-indent: 0.5in;">Manfaat Penggunaan IoT dalam Hidroponik
                             1. Efisiensi Penggunaan Air dan Nutrisi: Dengan sensor dan kontroler, penggunaan air dan
                             nutrisi dapat diatur secara tepat, mengurangi pemborosan dan meningkatkan efisiensi.
 
@@ -259,11 +259,11 @@
 
                             4. Peningkatan Produktivitas: Dengan pengelolaan yang lebih baik dan pemantauan yang tepat,
                             produktivitas tanaman dapat meningkat secara signifikan.</p>
-                        <p>Di Tegal, salah satu kelompok tani telah berhasil mengimplementasikan sistem hidroponik
+                        <p style="text-align: justify; text-indent: 0.5in;">Di Tegal, salah satu kelompok tani telah berhasil mengimplementasikan sistem hidroponik
                             berbasis IoT. Kelompok tani ini menggunakan berbagai sensor untuk memantau kondisi tanaman,
                             yang kemudian diintegrasikan dengan platform IoT. Hasilnya, mereka mampu meningkatkan
                             produktivitas hingga 30% dibandingkan metode hidroponik konvensional.</p>
-                        <p>Penggunaan IoT dalam sistem hidroponik di Tegal menunjukkan potensi besar dalam meningkatkan
+                        <p style="text-align: justify; text-indent: 0.5in;">Penggunaan IoT dalam sistem hidroponik di Tegal menunjukkan potensi besar dalam meningkatkan
                             efisiensi dan produktivitas pertanian. Meskipun menghadapi beberapa tantangan, solusi yang
                             tepat dapat membantu mengatasi hambatan tersebut dan membawa manfaat signifikan bagi petani
                             di Tegal. Dengan perkembangan teknologi yang terus maju, diharapkan lebih banyak petani yang
@@ -401,7 +401,7 @@
                     <div>
                         <h2 class="mb-4">Tentang Blog</h2>
                         <div class="bg-primary text-center text-white" style="padding: 30px;">
-                            <p>Blog ini dipersembahkan bagi para petani, penggiat agrikultur, dan semua orang yang ingin
+                            <p align="justify">Blog ini dipersembahkan bagi para petani, penggiat agrikultur, dan semua orang yang ingin
                                 menyelami dunia pertanian yang menjanjikan dan penuh peluang.
                                 Temukan panduan dan kiat bertani yang efektif, pelajari teknologi terkini, dan dapatkan
                                 inspirasi dari kisah sukses para petani inovatif.

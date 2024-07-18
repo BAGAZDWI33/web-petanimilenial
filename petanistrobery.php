@@ -215,7 +215,7 @@
                             </div>
                         </div>
                         <h1 class="mb-4">Pertanian Strobery-teknologi terkini</h1>
-                        <p>
+                        <p style="text-align: justify; text-indent: 0.5in;">
                             Stroberi merupakan buah daerah sub-tropika yang dapat tumbuh di dataran tinggi dengan suhu
                             yang relatif dingin. Stroberi yang dibudidayakan di Indonesia adalah hasil introduksi dan
                             juga beberapa hasil persilangan yang menjadi varietas lokal potensial. Buah stroberi
@@ -238,7 +238,7 @@
                             cuaca ekstrem, tetapi juga mengoptimalkan produksi dan kualitas buah dengan cara yang lebih
                             terkendali.
                         </p>
-                        <p> Pemeliharaan tanaman
+                        <p style="text-align: justify; text-indent: 0.5in;"> Pemeliharaan tanaman
 
                             Tanaman stroberi sangat tidak tahan terhadap curah hujan yang tinggi. Untuk itu setelah
                             dilakukan penanaman sebaiknya dipasang atap pelindung tanaman berupa plastik transparan yang
@@ -268,7 +268,7 @@
                         <div class="col-md-6">
                             <img class="img-fluid w-100" src="img/strobery1.webp" alt="">
                         </div>
-                        <p>Penggunaan teknologi dalam budidaya stroberi mencakup berbagai aspek, mulai dari penanaman
+                        <p style="text-align: justify; text-indent: 0.5in;">Penggunaan teknologi dalam budidaya stroberi mencakup berbagai aspek, mulai dari penanaman
                             hingga panen. Berikut adalah beberapa teknologi yang dapat diterapkan:
 
                             Internet of Things (IoT): Sensor IoT dapat digunakan untuk memantau kondisi lingkungan
@@ -294,7 +294,7 @@
                             Penggunaan Kecerdasan Buatan (AI): AI digunakan untuk menganalisis data dari berbagai sensor
                             dan memberikan rekomendasi tindakan yang perlu diambil. AI juga membantu dalam prediksi
                             hasil panen dan identifikasi penyakit tanaman.</p>
-                        <p> Manfaat Penggunaan Teknologi dalam Budidaya Stroberi
+                        <p style="text-align: justify; text-indent: 0.5in;"> Manfaat Penggunaan Teknologi dalam Budidaya Stroberi
                             Peningkatan Produktivitas: Dengan pemantauan dan kontrol yang lebih baik, tanaman stroberi
                             dapat tumbuh dalam kondisi optimal, meningkatkan hasil panen.
 
@@ -438,7 +438,7 @@
                     <div>
                         <h2 class="mb-4">Tentang Blog</h2>
                         <div class="bg-primary text-center text-white" style="padding: 30px;">
-                            <p>Blog ini dipersembahkan bagi para petani, penggiat agrikultur, dan semua orang yang ingin
+                            <p align="justify">Blog ini dipersembahkan bagi para petani, penggiat agrikultur, dan semua orang yang ingin
                                 menyelami dunia pertanian yang menjanjikan dan penuh peluang.
                                 Temukan panduan dan kiat bertani yang efektif, pelajari teknologi terkini, dan dapatkan
                                 inspirasi dari kisah sukses para petani inovatif.

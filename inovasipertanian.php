@@ -219,19 +219,19 @@
                             </div>
                         </div>
                         <h1 class="mb-4">Inovasi teknologi Pertanian</h1>
-                        <p>Kemajuan teknologi pertanian telah mengubah cara kita memandang pertanian. Dengan menggunakan
+                        <p style="text-align: justify; text-indent: 0.5in;">Kemajuan teknologi pertanian telah mengubah cara kita memandang pertanian. Dengan menggunakan
                             GPS, sensor, dan perangkat lunak canggih, petani dapat memantau dan mengelola tanaman
                             mereka. Hal ini membantu mereka mengidentifikasi masalah seperti kekurangan air atau makanan
                             pada satu tingkat. Hasilnya adalah penggunaan sumber daya yang efisien, seperti air dan
                             pupuk, serta peningkatan hasil panen.
 
                         </p>
-                        <p>Drone dan citra satelit memungkinkan pemantauan pertanian dari udara. Hal ini membantu petani
+                        <p style="text-align: justify; text-indent: 0.5in;">Drone dan citra satelit memungkinkan pemantauan pertanian dari udara. Hal ini membantu petani
                             melacak kesehatan tanaman, mengidentifikasi area yang memerlukan perhatian, dan bahkan
                             melacak kemajuan selama musim tanam. Dengan menggunakan teknologi ini, petani dapat
                             bertindak cepat untuk menyelesaikan masalah sebelum menjadi lebih buruk.
                         </p>
-                        <p>Inovasi dalam pertanian vertikal dan hidroponik telah mengubah cara kita berpikir tentang
+                        <p style="text-align: justify; text-indent: 0.5in;">Inovasi dalam pertanian vertikal dan hidroponik telah mengubah cara kita berpikir tentang
                             tempat tumbuhnya tanaman. Pertanian vertikal menggunakan rak bertumpuk untuk menanam tanaman
                             secara vertikal, sehingga menghemat ruang dan mengurangi konsumsi air. Hidroponik adalah
                             metode menanam tanaman tanpa tanah, memberikan nutrisi langsung ke akar tanaman dan air.
@@ -240,11 +240,11 @@
                         <div class="col-md-6">
                             <img class="img-fluid w-100" src="img/inovasi1.jpeg" alt="">
                         </div>
-                        <p>Smart farming atau pertanian cerdas adalah penerapan teknologi informasi dan komunikasi (TIK)
+                        <p style="text-align: justify; text-indent: 0.5in;">Smart farming atau pertanian cerdas adalah penerapan teknologi informasi dan komunikasi (TIK)
                             dalam pertanian untuk meningkatkan efisiensi, produktivitas, dan keberlanjutan. Di Tegal,
                             teknologi ini mulai diterapkan untuk menjawab tantangan pertanian modern, seperti perubahan
                             iklim, keterbatasan lahan, dan kebutuhan pangan yang terus meningkat.</p>
-                        <p>Komponen Smart Farming
+                        <p style="text-align: justify; text-indent: 0.5in;">Komponen Smart Farming
                             Internet of Things (IoT): IoT menghubungkan berbagai perangkat, sensor, dan mesin pertanian
                             melalui internet. Dengan IoT, petani dapat memantau kondisi ladang secara real-time dan
                             mengotomatisasi berbagai proses pertanian.
@@ -263,7 +263,7 @@
                             Automasi dan Robotika: Mesin otomatis dan robot membantu dalam berbagai tugas pertanian
                             seperti penanaman, pemupukan, dan panen. Ini mengurangi beban kerja petani dan meningkatkan
                             efisiensi.</p>
-                        <p>Di Tegal, penerapan smart farming mencakup beberapa inovasi teknologi berikut:
+                        <p style="text-align: justify; text-indent: 0.5in;">Di Tegal, penerapan smart farming mencakup beberapa inovasi teknologi berikut:
 
                             Sistem Irigasi Otomatis Berbasis IoT: Sensor tanah memantau kelembapan dan mengatur irigasi
                             sesuai kebutuhan tanaman, menghemat air dan memastikan tanaman mendapatkan pasokan air yang
@@ -278,7 +278,7 @@
                             Aplikasi Pertanian Digital: Aplikasi ini menyediakan informasi dan panduan bagi petani,
                             seperti rekomendasi pupuk, prediksi cuaca, dan harga pasar. Petani dapat mengakses informasi
                             ini melalui smartphone.</p>
-                        <p>Manfaat Smart Farming
+                        <p style="text-align: justify; text-indent: 0.5in;">Manfaat Smart Farming
                             Efisiensi dan Produktivitas: Dengan pengelolaan yang lebih baik dan teknologi otomatisasi,
                             hasil panen dapat meningkat dan penggunaan sumber daya seperti air dan pupuk dapat lebih
                             efisien.
@@ -426,7 +426,7 @@
                     <div>
                         <h2 class="mb-4">Tentang Blog</h2>
                         <div class="bg-primary text-center text-white" style="padding: 30px;">
-                            <p>Blog ini dipersembahkan bagi para petani, penggiat agrikultur, dan semua orang yang ingin
+                            <p align="justify">Blog ini dipersembahkan bagi para petani, penggiat agrikultur, dan semua orang yang ingin
                                 menyelami dunia pertanian yang menjanjikan dan penuh peluang.
                                 Temukan panduan dan kiat bertani yang efektif, pelajari teknologi terkini, dan dapatkan
                                 inspirasi dari kisah sukses para petani inovatif.

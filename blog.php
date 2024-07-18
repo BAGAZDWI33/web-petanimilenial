@@ -313,7 +313,7 @@
                 <div>
                     <h2 class="mb-4">Tentang Blog</h2>
                     <div class="bg-primary text-center text-white" style="padding: 30px;">
-                        <p>Blog ini dipersembahkan bagi para petani, penggiat agrikultur, dan semua orang yang ingin
+                        <p align="justify">Blog ini dipersembahkan bagi para petani, penggiat agrikultur, dan semua orang yang ingin
                             menyelami dunia pertanian yang menjanjikan dan penuh peluang.
                             Temukan panduan dan kiat bertani yang efektif, pelajari teknologi terkini, dan dapatkan
                             inspirasi dari kisah sukses para petani inovatif.
