@@ -13,8 +13,7 @@
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
@@ -40,7 +39,7 @@
     - #HEADER Navbar
   -->
 
-  <header class="header" data-header>
+    <header class="header" data-header>
         <div class="container">
 
             <a href="#" class="logo">
@@ -88,7 +87,7 @@
                     </li>
 
                 </ul>
-                
+
 
                 <div class="wrapper">
                     <a href="mailto:info@email.com" class="contact-link">PetaniMilenial.indo@gmail.com</a>
@@ -177,43 +176,44 @@
                         <div class="blog-item position-relative overflow-hidden">
                             <img class="img-fluid" src="img/blog-1.jpg" alt="">
                             <a class="blog-overlay" href="blogdetail.php">
-                                <h4 class="text-white">Menjelajahi Dunia Oranye: Panduan Lengkap Menanam dan Memanen Wortel</h4>
+                                <h4 class="text-white">Menjelajahi Dunia Oranye: Panduan Lengkap Menanam dan Memanen
+                                    Wortel</h4>
                                 <span class="text-white fw-bold">Mar 17, 2024</span>
                             </a>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="blog-item position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/blog-2.jpg" alt="">
-                            <a class="blog-overlay" href="">
-                                <h4 class="text-white">Panen Wortel dengan hasil yang memuaskan</h4>
+                            <img class="img-fluid" src="img/hidroponiktegal.jpg" alt="">
+                            <a class="blog-overlay" href="hidroponik.php">
+                                <h4 class="text-white">Pertanian Hidroponik Tegal, Jawa Tengah</h4>
                                 <span class="text-white fw-bold">Jul 01, 2024</span>
                             </a>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="blog-item position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/blog-3.jpg" alt="">
-                            <a class="blog-overlay" href="">
-                                <h4 class="text-white">Panen Tomat dengan buah yang bagus</h4>
+                            <img class="img-fluid" src="img/tanibawang4.jpg" alt="">
+                            <a class="blog-overlay" href="tanibawang.php">
+                                <h4 class="text-white">Pertanian bawang unggul berbasis teknologi hama</h4>
                                 <span class="text-white fw-bold">Feb 01, 2024</span>
                             </a>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="blog-item position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/blog-1.jpg" alt="">
-                            <a class="blog-overlay" href="">
-                                <h4 class="text-white">Penanaman Tomat dengan cara manual</h4>
+                            <img class="img-fluid" src="img/strobery1.webp" alt="">
+                            <a class="blog-overlay" href="petanistrobery.php">
+                                <h4 class="text-white">Penanaman strobery dengan mutu teknologi terkini</h4>
                                 <span class="text-white fw-bold">Jan 13, 2024</span>
                             </a>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="blog-item position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/blog-2.jpg" alt="">
-                            <a class="blog-overlay" href="">
-                                <h4 class="text-white">Penegcekan hasil penanman wortel siap panen</h4>
+                            <img class="img-fluid" src="img/inovasi.jpeg" alt="">
+                            <a class="blog-overlay" href="inovasipertanian.php">
+                                <h4 class="text-white">Inovasi Teknologi Pertanian</h4>
                                 <span class="text-white fw-bold">Jun 30, 2024</span>
                             </a>
                         </div>
@@ -257,11 +257,15 @@
                 <div class="mb-5">
                     <h2 class="mb-4">Kategori</h2>
                     <div class="d-flex flex-column justify-content-start bg-primary p-4">
-                        <a class="fs-5 fw-bold text-white mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Pertanian Padi</a>
+                        <a class="fs-5 fw-bold text-white mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Pertanian
+                            Padi</a>
                         <a class="fs-5 fw-bold text-white mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Palawija</a>
-                        <a class="fs-5 fw-bold text-white mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Budidaya Anggur</a>
-                        <a class="fs-5 fw-bold text-white mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Penyewaan Alat Pertanian</a>
-                        <a class="fs-5 fw-bold text-white" href="#"><i class="bi bi-arrow-right me-2"></i>Penyuluhan Pertanian</a>
+                        <a class="fs-5 fw-bold text-white mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Budidaya
+                            Anggur</a>
+                        <a class="fs-5 fw-bold text-white mb-2" href="#"><i class="bi bi-arrow-right me-2"></i>Penyewaan
+                            Alat Pertanian</a>
+                        <a class="fs-5 fw-bold text-white" href="#"><i class="bi bi-arrow-right me-2"></i>Penyuluhan
+                            Pertanian</a>
                     </div>
                 </div>
                 <!-- Category End -->
@@ -272,28 +276,33 @@
                     <div class="bg-primary p-4">
                         <div class="d-flex overflow-hidden mb-3">
                             <img class="img-fluid flex-shrink-0" src="img/blog-1.jpg" style="width: 75px;" alt="">
-                            <a href="" class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Menjelajahi Dunia Oranye: Panduan Lengkap Menanam dan Memanen Wortel
+                            <a href="" class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Menjelajahi
+                                Dunia Oranye: Panduan Lengkap Menanam dan Memanen Wortel
                             </a>
                         </div>
                         <div class="d-flex overflow-hidden mb-3">
                             <img class="img-fluid flex-shrink-0" src="img/blog-2.jpg" style="width: 75px;" alt="">
-                            <a href="" class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Panen Wortel dengan hasil yang memuaskan
+                            <a href="" class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Panen
+                                Wortel dengan hasil yang memuaskan
                             </a>
                         </div>
                         <div class="d-flex overflow-hidden mb-3">
                             <img class="img-fluid flex-shrink-0" src="img/blog-1.jpg" style="width: 75px;" alt="">
-                            <a href="" class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Penanaman Tomat dengan cara manual
+                            <a href="" class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Penanaman
+                                Tomat dengan cara manual
                             </a>
                         </div>
                         <div class="d-flex overflow-hidden mb-3">
                             <img class="img-fluid flex-shrink-0" src="img/blog-3.jpg" style="width: 75px;" alt="">
-                            <a href="" class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Panen Tomat dengan buah yang bagus
+                            <a href="" class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Panen
+                                Tomat dengan buah yang bagus
                             </a>
                         </div>
 
                         <div class="d-flex overflow-hidden">
                             <img class="img-fluid flex-shrink-0" src="img/blog-2.jpg" style="width: 75px;" alt="">
-                            <a href="" class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Penegcekan hasil penanman wortel siap panen
+                            <a href="" class="d-flex align-items-center bg-white text-dark fs-5 fw-bold px-3 mb-0">Penegcekan
+                                hasil penanman wortel siap panen
                             </a>
                         </div>
                     </div>
@@ -304,10 +313,14 @@
                 <div>
                     <h2 class="mb-4">Tentang Blog</h2>
                     <div class="bg-primary text-center text-white" style="padding: 30px;">
-                        <p>Blog ini dipersembahkan bagi para petani, penggiat agrikultur, dan semua orang yang ingin menyelami dunia pertanian yang menjanjikan dan penuh peluang.
-                            Temukan panduan dan kiat bertani yang efektif, pelajari teknologi terkini, dan dapatkan inspirasi dari kisah sukses para petani inovatif.
-                            Bergabunglah dengan komunitas dinamis kami untuk saling berbagi ilmu, pengalaman, dan membangun jejaring yang saling menguntungkan.
-                            Mari kita bersama-sama wujudkan masa depan pertanian yang lebih gemilang, berkelanjutan, dan sejahtera!</p>
+                        <p>Blog ini dipersembahkan bagi para petani, penggiat agrikultur, dan semua orang yang ingin
+                            menyelami dunia pertanian yang menjanjikan dan penuh peluang.
+                            Temukan panduan dan kiat bertani yang efektif, pelajari teknologi terkini, dan dapatkan
+                            inspirasi dari kisah sukses para petani inovatif.
+                            Bergabunglah dengan komunitas dinamis kami untuk saling berbagi ilmu, pengalaman, dan
+                            membangun jejaring yang saling menguntungkan.
+                            Mari kita bersama-sama wujudkan masa depan pertanian yang lebih gemilang, berkelanjutan, dan
+                            sejahtera!</p>
                     </div>
                 </div>
                 <!-- Plain Text End -->
@@ -322,7 +335,7 @@
     - #FOOTER
   -->
 
-  <footer class="footer">
+    <footer class="footer">
         <div class="container grid-list">
 
             <div class="footer-brand">
@@ -420,7 +433,7 @@
                 <p class="h4 footer-list-title">Surat Kabar Kami</p>
 
                 <p class="footer-text">
-                Berlangganan surat kabar kami untuk mendapatkan berita & penawaran kami dikirimkan kepada Anda.
+                    Berlangganan surat kabar kami untuk mendapatkan berita & penawaran kami dikirimkan kepada Anda.
                 </p>
 
                 <form action="send_email.php" method="post" class="input-wrapper">
